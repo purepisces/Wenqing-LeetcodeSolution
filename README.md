@@ -1,18 +1,9 @@
 # Wenqing's LeetcodeSolution
 - **Arrays & Hashing**
   - [Two Sum](Arrays-Hashing/two-sum.md)
-  - [Determinants](Foundational-Concepts-in-Machine-Learning/Linear-Algebra/determinants.md)
-  - [Linear Transformations](Foundational-Concepts-in-Machine-Learning/Linear-Algebra/linear-transformations.md)
-  - [Linear Systems](Foundational-Concepts-in-Machine-Learning/Linear-Algebra/linear-systems.md)
-  - [Change Of Basis](Foundational-Concepts-in-Machine-Learning/Linear-Algebra/chang-of-basis.md)
-  - [Eigenvector](Foundational-Concepts-in-Machine-Learning/Linear-Algebra/eigenvector.md)
-  - [Singular Vector](Foundational-Concepts-in-Machine-Learning/Linear-Algebra/singular-vector.md)
-  - [Eigenvalue](Foundational-Concepts-in-Machine-Learning/Linear-Algebra/eigenvalue.md)
-  - [Singular Value](Foundational-Concepts-in-Machine-Learning/Linear-Algebra/singular-value.md)a
-  - [Singular Value Decomposition (SVD)](Foundational-Concepts-in-Machine-Learning/Linear-Algebra/svd.md)
 
-- **Statistical Measures**
-  - [Standard Deviation vs Standard Error](Foundational-Concepts-in-Machine-Learning/Statistical-Measures/Standard-Deviation-vs-Standard-Error.md)
+- **Intervals**
+  - [Insert Interval](Intervals/insert-interval.md)
   - [Margin of Error](Foundational-Concepts-in-Machine-Learning/Statistical-Measures/Margin-of-Error.md)
   - [Statistical Inference](Foundational-Concepts-in-Machine-Learning/Statistical-Measures/Statistical-Inference.md)
   - [Confidence Intervals](Foundational-Concepts-in-Machine-Learning/Statistical-Measures/Confidence-Intervals.md)
