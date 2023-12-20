@@ -1,6 +1,6 @@
 # Wenqing's LeetcodeSolution
 - **Arrays & Hashing**
-  - [Two Sum](Arrays-Hashing/two_sum.md)
+  - [Two Sum](Arrays-Hashing/two-sum.md)
   - [Determinants](Foundational-Concepts-in-Machine-Learning/Linear-Algebra/determinants.md)
   - [Linear Transformations](Foundational-Concepts-in-Machine-Learning/Linear-Algebra/linear-transformations.md)
   - [Linear Systems](Foundational-Concepts-in-Machine-Learning/Linear-Algebra/linear-systems.md)
