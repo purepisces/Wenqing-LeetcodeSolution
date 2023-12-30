@@ -1,4 +1,4 @@
 # Wenqing's LeetcodeSolution
 - **Arrays & Hashing**
-  - Hashset
+  - [Hashset](Arrays-Hashing/hashset.md)
   - [Two Sum](Arrays-Hashing/two-sum.md)
