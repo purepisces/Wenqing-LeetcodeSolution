@@ -1,5 +1,5 @@
 ## Link:
-- [217_Contains_Duplicate]([https://www.youtube.com/watch?v=A82brFpdr9g](https://leetcode.com/problems/contains-duplicate/description/))
+- [217_Contains_Duplicate](https://leetcode.com/problems/contains-duplicate/description/)
 
 # Intuition
 <!-- Describe your first thoughts on how to solve this problem. -->
