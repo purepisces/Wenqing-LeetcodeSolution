@@ -1,14 +1,33 @@
-Hash Table and Hash Set are the data structures used to store data in the form of key-value pairs and objects respectively. Python's dict is a built-in HashMap which allows you to store key-value pairs. We can create a dictionary (serves as both Hashtable and HashMap). HashSet in Python (Using set).
+# Data Structures: Hash Table, Hash Set, and HashMap
+Hash Table and Hash Set are the data structures used to store data in the form of key-value pairs and objects respectively. Python's dict is a built-in HashMap which allows you to store key-value pairs. We can create a dictionary (serves as both Hashtable and HashMap). HashSet in Python (Using set). HashMap is generally preferred over HashTable if thread synchronization is not needed. Hashtable is synchronized, whereas HashMap is not. HashMap allows one null key and multiple null values, whereas Hashtable does not allow any null key or value.
+
+
+## Hash Set
+A **Hash Set** allows you to add unique values without defining a key for each value. It's used to store a collection of unique objects.
+
+In Python, a `set` is used as a Hash Set. For example:
+```python
+my_set = {'apple', 'banana', 'cherry'}
+```
+Leetcode: 217_Contains_Duplicate
+
+## Hash Table
+A **Hash Table** is a data structure used to store data in key-value pairs. It's a collection where you define both the key and the value. You can then retrieve the value using its corresponding key. 
+
+Key characteristics of a Hash Table:
+- Does **not allow null keys or values**.
+- It is **synchronized**, meaning it's thread-safe. However, this can make it generally slower than some unsynchronized data structures.
+
 
 ## Hashmap
-HashMap allows one null key and multiple null values, whereas Hashtable does not allow any null key or value.
+HashMap is an advanced version and improvement on the Hashtable.
+
+Key characteristics of a Hash Map:
+- Does **allow one null key and multiple null values**.
+- It is **non synchronized**.
 242_Valid_Anagram
-## Hashtable
-Hashtable is essentially a Key-Value-Pair collection where you define the key and the value then you can find the value by using the key.
-A key aspect of a Hashtable is that it doesn't allow null keys or values.
-## Hashset
-HashSet allowes you to add a value, this value is unique and you do not define the key.
-217_Contains_Duplicate
+
+
 
 
 
