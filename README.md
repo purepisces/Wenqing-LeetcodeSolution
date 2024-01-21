@@ -7,7 +7,7 @@
 
 ## Foundational Concepts in Machine Learning
 - **Arrays&Hashing**
-  - [Easy-217 Contains Duplicate](Arrays&Hashing/217_contains_duplicate.md)
+  - [Easy-217 Contains Duplicate](Arrays&Hashing/217_Contains_Duplicate.md)
   - [Determinants](Foundational-Concepts-in-Machine-Learning/Linear-Algebra/determinants.md)
   - [Linear Transformations](Foundational-Concepts-in-Machine-Learning/Linear-Algebra/linear-transformations.md)
   - [Linear Systems](Foundational-Concepts-in-Machine-Learning/Linear-Algebra/linear-systems.md)
