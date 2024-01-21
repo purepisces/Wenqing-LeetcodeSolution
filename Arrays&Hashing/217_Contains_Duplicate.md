@@ -20,7 +20,7 @@ $$O(n)$$
 <!-- Add your space complexity here, e.g. $$O(n)$$ -->
 $$O(n)$$ 
 # Code
-```
+```python
 class Solution(object):
     def containsDuplicate(self, nums):
         """
