@@ -1,3 +1,6 @@
+## Link:
+- [217_Contains_Duplicate]([https://www.youtube.com/watch?v=A82brFpdr9g](https://leetcode.com/problems/contains-duplicate/description/))
+
 # Intuition
 <!-- Describe your first thoughts on how to solve this problem. -->
 It just tests duplicate elements. So we can consider using HashSet.
