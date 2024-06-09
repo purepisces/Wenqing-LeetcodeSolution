@@ -1,4 +1,8 @@
-# Left Join
+## primary key 
+
+A primary key is a column (or a set of columns) in a database table that uniquely identifies each row in that table. Primary keys must contain unique values and cannot contain NULL values. Each table can have only one primary key, and it ensures that each record in the table is unique and can be referenced distinctly.
+## Left Join
+
 ```sql
 SELECT 
     EmployeeUNI.unique_id,
