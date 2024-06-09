@@ -62,4 +62,36 @@ ORDER BY
     s.student_id, su.subject_name;
 ```
 
+## GROUP BY
+
+The `GROUP BY` clause in SQL is used to group rows that have the same values in specified columns into summary rows, like "find the number of customers in each country." It is often used with aggregate functions (`COUNT`, `SUM`, `AVG`, `MAX`, `MIN`) to perform calculations on each group of rows.
+
+### Example:
+
+Consider the following `Sales` table:
+
+| sale_id | product_name | amount | sale_date |
+|---------|--------------|--------|-----------|
+| 1       | Laptop       | 1000   | 2024-01-01|
+| 2       | Laptop       | 1200   | 2024-01-02|
+| 3       | Phone        | 800    | 2024-01-02|
+| 4       | Phone        | 850    | 2024-01-03|
+
+If you want to find the total sales amount for each product, you can use the `GROUP BY` clause:
+
+```sql
+SELECT product_name, SUM(amount) AS total_sales
+FROM Sales
+GROUP BY product_name;
+```
+This would produce:
+
+| product_name | total_sales |
+|--------------|-------------|
+| Laptop       | 2200        |
+| Phone        | 1650        |
+
+Here, `GROUP BY product_name` groups the rows by each unique product name, and `SUM(amount)` calculates the total sales amount for each product.
+
+
 
