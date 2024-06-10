@@ -93,5 +93,5 @@ This would produce:
 
 Here, `GROUP BY product_name` groups the rows by each unique product name, and `SUM(amount)` calculates the total sales amount for each product.
 
-
+## sql 1789
 
