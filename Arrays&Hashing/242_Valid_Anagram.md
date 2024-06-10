@@ -16,7 +16,7 @@ Finally, compare these 2 hashmaps to see if they are equal.
 $$O(n)$$
 - Space complexity:
 <!-- Add your space complexity here, e.g. $$O(n)$$ -->
-$$O(1)$$
+$$O(n)$$
 # Code
 Solution 1:
 ```python
