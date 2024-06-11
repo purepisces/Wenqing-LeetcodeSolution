@@ -31,11 +31,14 @@ then
 <!-- Add your time complexity here, e.g. $$O(n)$$ -->
  $$O(n*m)$$ 
 
+The time complexity is $O(n*m)$ because we iterate over each of the $n$ strings, and for each string, we count the characters which takes $O(m)$ time where $m$ is the maximum length of any string in strs.
+
 - Space complexity:
 <!-- Add your space complexity here, e.g. $$O(n)$$ -->
  $$O(n*m)$$ 
 
-where $n$ is the number of strings in the input list strs and $m$ is the maximum length of any string in strs.
+The space complexity is $O(n*m)$ because we store the count of characters (which takes $O(m)$ space for each string) for $n$ strings in the hash table.
+
 # Code
 ```
 class Solution(object):
