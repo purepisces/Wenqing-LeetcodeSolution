@@ -10,7 +10,7 @@ Input: nums = [1,1,1,2,2,3], k = 2
 Output: [1,2]
 Firstly, the intuition is that we need to count the frequency of each number's, then we can return for most kth frequent number. For example, in this case it will be {1: 3, 2: 2, 3: 1}.
 Then neetcode come up with a really clever way, it reserved len(nums)+1 position for store the frequency and corresponding value. In this case, frequency is [[],[],[],[],[],[],[]], and fre[0] represents appear 0 time, fre[1] represents appear 1 time, freq[2] represnets appear 2 time and so on... Then we can in reverse order and find the kth most frequent element.
-How to make freq store our wanted value? We can for loop {1: 3, 2: 2, 3: 1}. For ele, fre in res.items():.
+How to make freq store our wanted value? We can for loop {1: 3, 2: 2, 3: 1}. 
 
     for ele, fre in res.items():
         freq[fre].append(ele)
