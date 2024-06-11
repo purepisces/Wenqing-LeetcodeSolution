@@ -47,13 +47,13 @@ class Solution(object):
         :type strs: List[str]
         :rtype: List[List[str]]
         """
-        res = collections.defaultdict(list)
-        for s in strs:
-            count = [0] * 26
-            for c in s:
-                count[ord(c)-ord("a")] +=1
-            res[tuple(count)].append(s)
-        return res.values()
+        temp = collections.defaultdict(list)
+        for str in strs:
+            count = [0]*26
+            for c in str:
+                count[ord(c)-ord('a')] +=1
+            temp[count].append(str)
+        return temp.values()
 ```
 
 # Technical
