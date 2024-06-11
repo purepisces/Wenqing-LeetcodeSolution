@@ -1,3 +1,5 @@
+# Link:
+- [1_Two_Sum](https://leetcode.com/problems/two-sum/description/)
 # Intuition
 <!-- Describe your first thoughts on how to solve this problem. -->
 This problem is not that difficult. Since it requires us to find 2 value that sum to the target and return their index, we can use hashmap to store key(number) and value(number's index). And we can then for loop the entire array, if target - nums[i] already inside the hashmap, we can just get the value of it and return. Else, we add a new key-value pair to the hashmap.
