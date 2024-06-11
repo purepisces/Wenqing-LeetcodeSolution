@@ -25,12 +25,18 @@ Construct a hashtable that stores each num and their corresponding frequency val
 
 # Complexity
 - Time complexity:
-<!-- Add your time complexity here, e.g. $$O(n)$$ -->
-$$O(n)$$
+  $$O(n)$$
+
+  - We iterate over the `nums` list once to count the frequency of each element, which takes $O(n)$ time.
+  - Constructing the frequency array also takes $O(n)$ time since we populate it with the frequencies of each unique element.
+  - Finally, we iterate over the frequency array to extract the top $k$ frequent elements, which again takes $O(n)$ time in the worst case.
 
 - Space complexity:
-<!-- Add your space complexity here, e.g. $$O(n)$$ -->
-$$O(n)$$ 
+    $$O(n)$$ 
+
+  - We use a dictionary `temp` to store the frequency of each element, which takes $O(n)$ space where $n$ is the number of unique elements.
+  - We use a list `freq` of lists to store elements by their frequency, which also takes $O(n)$ space in the worst case where all elements are unique and each list within `freq` has at most one element.
+  - The result list `res` will store the top $k$ frequent elements, which in the worst case can be $O(k)$. However, since $k \leq n$, this contributes to $O(n)$ space complexity.
 
 # Code
 ```python
