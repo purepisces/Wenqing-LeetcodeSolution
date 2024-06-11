@@ -15,7 +15,17 @@ Then for loop these str list, and for each str, we make a array to count each wo
 
     res[tuple(count)].append(s)
 
+❌❌❌
 
+If we use  
+
+    temp[count].append(str)
+    
+then
+
+    TypeError: unhashable type: 'list'
+    temp[count].append(str)
+    
 # Complexity
 - Time complexity:
 <!-- Add your time complexity here, e.g. $$O(n)$$ -->
@@ -24,6 +34,8 @@ Then for loop these str list, and for each str, we make a array to count each wo
 - Space complexity:
 <!-- Add your space complexity here, e.g. $$O(n)$$ -->
  $$O(n*m)$$ 
+
+where $n$ is the number of strings in the input list strs and $m$ is the maximum length of any string in strs.
 # Code
 ```
 class Solution(object):
