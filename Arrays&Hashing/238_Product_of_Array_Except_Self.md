@@ -38,7 +38,7 @@ $$O(n)$$
     - The space complexity is $O(n)$ because we use an additional array res of the same length as the input array nums to store the results. The space used by prefix and postfix variables is constant, but the additional result array makes the space complexity linear.
 
 # Code
-```
+```python
 class Solution(object):
     def productExceptSelf(self, nums):
         """
