@@ -32,7 +32,7 @@ $$O(n)$$
 $$O(n)$$ 
 
 # Code
-```
+```python
 class Solution(object):
     def topKFrequent(self, nums, k):
         """
@@ -52,4 +52,10 @@ class Solution(object):
                 tmp.append(item)
                 if len(tmp) == k:
                     return tmp
+```
+# Tech
+
+```python
+res = {}
+for ele, fre in res.items()
 ```
