@@ -1,3 +1,6 @@
+## Link:
+- [49-Group-Anagrams](https://leetcode.com/problems/group-anagrams/description/)
+  
 # Intuition
 <!-- Describe your first thoughts on how to solve this problem. -->
 This problem is coding difficult. I watched neetcode for the solution. Firstly, like the problem anagrams, we need to count the appearance of each character. But for the previous problem, we just count for 2 words anagram, and we use 2 hashmap and compare. However, the difficult in this problem is if we make each hashmap for the word and compare if they are the same it will be very complex. So! We can just store one key for each anagram, and append value of different words to the same key. 
