@@ -11,7 +11,7 @@
   - [Easy-217-Contains-Duplicate](Arrays&Hashing/217_Contains_Duplicate.md)
   - [Easy-242-Valid-Anagram](Arrays&Hashing/242_Valid_Anagram.md)
   - [Easy-1929-Concatenation-of-Array](Arrays&Hashing/1929_Concatenation_of_Array.md)
-  - [Easy-1-Two-Sum](Arrays&Hashing/1_Two_Sum.md)
+  - [🌟Easy-1-Two-Sum](Arrays&Hashing/1_Two_Sum.md)
 - **SQL**
   - [Overview](SQL/sql.md)
   
