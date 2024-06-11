@@ -30,12 +30,12 @@ Construct a result array, which is `[1] * len(nums)`, to store the product value
 - Time complexity:
 $$O(n)$$
 
-- The time complexity is $O(n)$ because we iterate through the array twice: once to calculate the prefix products and once to calculate the postfix products. Each iteration is linear in terms of the number of elements in the array.
+    - The time complexity is $O(n)$ because we iterate through the array twice: once to calculate the prefix products and once to calculate the postfix products. Each iteration is linear in terms of the number of elements in the array.
 
 - Space complexity:
 $$O(n)$$
 
-The space complexity is $O(n)$ because we use an additional array res of the same length as the input array nums to store the results. The space used by prefix and postfix variables is constant, but the additional result array makes the space complexity linear.
+    - The space complexity is $O(n)$ because we use an additional array res of the same length as the input array nums to store the results. The space used by prefix and postfix variables is constant, but the additional result array makes the space complexity linear.
 
 # Code
 ```
