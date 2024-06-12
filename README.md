@@ -16,6 +16,7 @@
   - [🌟🌟Medium-347-Top-K-Frequent-Elements](Arrays&Hashing/347_Top_K_Frequent_Elements.md)
   - [🌟🌟🧠Medium-238-Product-of-Array-Except-Self](Arrays&Hashing/238_Product_of_Array_Except_Self.md)
   - [Medium-36-Valid-Sudoku](Arrays&Hashing/36_Valid_Sudoku.md)
+  - [Medium-128-Longest-Consecutive-Sequence](Arrays&Hashing/128_Longest_Consecutive_Sequence.md)
 
 - **SQL**
   - [Overview](SQL/sql.md)
