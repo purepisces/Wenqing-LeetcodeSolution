@@ -18,7 +18,10 @@
   - [Medium-36-Valid-Sudoku](Arrays&Hashing/36_Valid_Sudoku.md)
   - [Medium-128-Longest-Consecutive-Sequence](Arrays&Hashing/128_Longest_Consecutive_Sequence.md)
   - [Medium-271-Encode-And-Decode-Strings](Arrays&Hashing/271_Encode_And_Decode_Strings.md)
-    
+- **Two Pointers**
+  - [Overview](Two-Pointers.md)
+  - [Easy-125-Valid-Palindrome](Two-Pointers/125-Valid-Palindrome.md)
+  
 - **SQL**
   - [Overview](SQL/sql.md)
-  
+
