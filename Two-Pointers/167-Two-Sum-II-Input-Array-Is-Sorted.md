@@ -49,7 +49,7 @@ This solution is incorrect. Consider [1, 2, 3, 4, 4, 9] with a target of 8. It w
   - We only use a constant amount of extra space for the pointers and temporary variables.
 
 # Code
-```
+```python
 class Solution(object):
     def twoSum(self, numbers, target):
         """
