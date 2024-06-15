@@ -21,6 +21,7 @@
 - **Two Pointers**
   - [Overview](Two-Pointers.md)
   - [Easy-125-Valid-Palindrome](Two-Pointers/125-Valid-Palindrome.md)
+  - [Medium-167-Two-Sum-II-Input-Array-Is-Sorted](Two-Pointers/167-Two-Sum-II-Input-Array-Is-Sorted.md)
   
 - **SQL**
   - [Overview](SQL/sql.md)
