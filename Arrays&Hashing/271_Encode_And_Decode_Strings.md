@@ -3,56 +3,65 @@
 
 # Intuition
 
-- **Input:** `nums = [100, 4, 200, 1, 3, 2]`
-- **Output:** `4`
-- **Explanation:** The longest consecutive elements sequence is `[1, 2, 3, 4]`. Therefore its length is `4`.
+I watched Neetnode for this problem. If we just encode `['hello', 'world']` to `'helloworld'` and then decode it back, we will not know where to separate the words. We could consider using special characters to separate them. For example, we could add `#`, making it `'hello#world'`.
 
-Initially, we need to find the starting position of each increasing sequence and discard repeated values. So first, convert `nums` to a set using `set(nums)`. Each value in the set could either be the start position or just part of the sequence. We only need to find the starting values.
+However, if the words are `['hello', 'wo#rld']`, encoding them would result in `'hello#wo#rld'`, and decoding it back would give `['hello', 'wo', 'rld']`. This means using only special characters is not a reliable method.
 
-Consider the list `[1, 2, 3, 4, 5, 6]`. Without finding only the starting points, it would calculate sequences starting from `1-6`, `2-6`, `3-6`, and so on, leading to $(O(n^2)$ complexity. To ensure linear time complexity, we need to identify only the starting points in each interval.
+Instead, we should integrate the length of each word in the encoding information. For example, encoding `['hello', 'world']` as `'5hello5world'` might work, but if the input is `['1hello', 'world']`, it will encode to `'61hello5world'`, making it appear that the first word is of length 61. Thus, adding only integers or special characters is not sufficient.
 
-When encountering a value, if `n-1` is in the set, skip it since it is not the starting position. If `n-1` is not in the set, it means `n` is a start value, and we initialize the length to `1`. While `n + length` is in the set, increase `length` by `1`. Then, update the result to be the maximum of `length` and the current result.
+A better approach is to combine the length information with a special character. For example, encoding `['hello', 'world']` would result in `'5#hello5#world'`.
 
-## Approach
+We use two pointers, `i` and `j`, in the decoding process. Pointer `i` is used to traverse the encoded string, while pointer `j` is used to locate the `#` character that separates the length of each word from the word itself. This helps us determine the length of each word and extract the word accordingly.
 
-We will find each starting position and use a hashset to store all the values of `nums`. When we find a starting position, we will calculate the sequence's length from this position. Then, we update the final result and return it.
+# Approach
 
-To find the starting position:
-- If `n-1` is not in `numset`, then `n` is a starting position.
-- Initialize the length to be `1`.
-- While `n + length` is in `numset`, we increase the length.
-- Finally, update the result with the longest length found.
-  
+To encode a list of strings, we will concatenate each string with its length and a special character `#`. This way, during decoding, we can easily identify the length of each string and extract it accordingly.
+
+## Encoding:
+1. Initialize an empty result string.
+2. For each string in the input list, append its length, a `#` character, and the string itself to the result string.
+
+## Decoding:
+1. Initialize an empty result list.
+2. Use two pointers, `i` and `j`:
+   - `i` traverses the encoded string.
+   - `j` locates the `#` character to determine the length of each word.
+3. Iterate through the encoded string, identifying lengths and corresponding substrings using the `#` character as a separator.
+4. Extract the substrings based on their lengths and append them to the result list.
+
 # Complexity
-- Time complexity:
-  $$O(n)$$
-  - Creating the set: $O(n)$
-  - Iterating over the list: $O(n)$
-  - Checking for sequence starts and calculating lengths: $O(n)$
-    
-- Space complexity:
-  $$O(n)$$
-  - Space for the set: $O(n)$
-  - Space for other variables: $O(1)$
+
+- **Time Complexity**:
+  $$O(N)$$
+  - where $N$ is the total length of all strings in the input list. We traverse each character once during both encoding and decoding.
+- **Space Complexity**:
+  $$O(N)$$
+  - where $N$ is the total length of all strings in the input list. We use extra space for the encoded string and the result list during decoding.
 
 # Code
 ```python
-class Solution(object):
-    def longestConsecutive(self, nums):
-        """
-        :type nums: List[int]
-        :rtype: int
-        """
-        numset = set(nums)
-        longest = 0
-        for n in nums:
-            # calculate just from the starting position
-            if n-1 not in numset:
-                length = 1
-                while n + length in numset:
-                    length+=1
-                longest = max(longest, length)
-        return longest
+class Solution:
+
+    def encode(self, strs: List[str]) -> str:
+        res = ''
+        for s in strs:
+            res += str(len(s)) + '#' + s
+        print(res)
+        return res
+
+    def decode(self, s: str) -> List[str]:
+        res = []
+        i = 0
+        while i < len(s):
+            j = i
+            while s[j] != '#':
+                j += 1
+            length = int(s[i:j])
+            i = j + 1
+            j = i + length
+            res.append(s[i:j])
+            i = j
+        return res
 ```
 
 
