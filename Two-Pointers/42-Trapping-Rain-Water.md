@@ -35,13 +35,12 @@ class Solution(object):
         return area
 ```
 
-Then, I watched NeetCode, which initializes the left and right pointers to the start and end positions of the array, respectively. Additionally, it uses two variables, `leftmax` and `rightmax`. Each time, the smaller value is moved. If `rightmax` is smaller, it moves to the left since it cannot trap rainwater. Conversely, if `leftmax` is smaller, it adds the area value leftmax - height[l] and moves to the right to check the next value.
+Then, I watched NeetCode, which initializes the left and right pointers to the start and end positions of the array, respectively. Additionally, it uses two variables, `leftmax` and `rightmax`. Each time, the smaller value is moved, and the area is summed up. If `rightmax` is smaller, it moves to the left since it cannot trap rainwater from the left pointer and adds the current area value `rightmax - height[r]`. Conversely, if `leftmax` is smaller, it adds the area value `leftmax - height[l]` and moves to the right to check the next value.
 
 # Approach
-
 - Initialize two pointers, `left` and `right`, at the start and end of the array, respectively.
 - Initialize `leftmax` and `rightmax` to the start and end positions.
-- Move the smaller value and update the max value and the final result.
+- Move the smaller value and update the max value and sum up area to final result.
 # Complexity
 - Time complexity:
   $$O(n)$$
