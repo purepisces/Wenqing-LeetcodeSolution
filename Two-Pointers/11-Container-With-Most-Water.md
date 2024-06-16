@@ -27,7 +27,7 @@ To maximize the area, we should move the pointer that points to the shorter heig
   $$O(1)$$
   - We only use a constant amount of extra space regardless of the input size.
 # Code
-```
+```python
 class Solution(object):
     def maxArea(self, height):
         """
