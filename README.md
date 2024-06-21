@@ -1,9 +1,13 @@
 # Wenqing's LeetcodeSolution
+  - [Python_Syntax](python_syntax.md)
   - [Hashset]
   - [Floyd's Cycle Detection]
   - [Divide and Conquer]
   - [Recursion]
   - [Bit Manipulation]
+ 
+
+
 
 ## Foundational Concepts in Machine Learning
 - **Arrays&Hashing**
