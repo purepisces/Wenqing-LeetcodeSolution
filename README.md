@@ -1,5 +1,6 @@
 # Wenqing's LeetcodeSolution
   - [Python_Syntax](python_syntax.md)
+  - [Tech](tech.md)
   - [Hashset]
   - [Floyd's Cycle Detection]
   - [Divide and Conquer]
