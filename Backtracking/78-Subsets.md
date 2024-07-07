@@ -24,7 +24,7 @@ class Solution(object):
         dfs(0)
         return res
 ```
-```
+```python
 ('i is ', 0)
 ('subset append is', [0])
 ('i is ', 1)
