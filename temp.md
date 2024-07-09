@@ -1,3 +1,27 @@
+```
+q = deque()
+```
+
+stands for "double-ended queue." It is a part of the collections module in Python and provides an efficient way to work with a sequence of elements that can be added or removed from both ends.
+
+Efficient O(1) Operations: Appending and popping from both ends of a deque are O(1) operations. This is more efficient than using a list where these operations are O(n) at the front.
+Flexible Data Structure: You can use it as a queue (FIFO - First In, First Out) or as a stack (LIFO - Last In, First Out).
+
+Append Elements:
+
+q.append(x): Adds x to the right end of the deque.
+q.appendleft(x): Adds x to the left end of the deque.
+
+Pop Elements:
+
+q.pop(): Removes and returns the element from the right end.
+q.popleft(): Removes and returns the element from the left end.
+
+both q.append(x), q.appendleft(x), q.pop(), and q.popleft() operations on a deque are O(1) operations.
+
+
+-----------------------
+
 In number of islands, when we make visit = set()
 and  visit.add((r,c))
 we should not visit.add([r,c]) since type 'list' is unhashable
