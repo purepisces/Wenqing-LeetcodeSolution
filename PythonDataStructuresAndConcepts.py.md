@@ -1,3 +1,23 @@
+The enumerate function in Python is a built-in function that adds a counter to an iterable (such as a list) and returns it as an enumerate object. 
+
+```python
+heights = [170, 165, 180, 175]
+
+for index, height in enumerate(heights):
+    print(f"Index: {index}, Height: {height}")
+
+```
+output:
+```
+Index: 0, Height: 170
+Index: 1, Height: 165
+Index: 2, Height: 180
+Index: 3, Height: 175
+
+```
+
+-----------------------
+
 pair.sort(reverse=True) is a Python command used to sort a list named pair in descending order.
 
 reverse=True: This is an optional argument for the sort() method. By default, sort() arranges the list in ascending order (from smallest to largest). When you set reverse=True, it sorts the list in descending order (from largest to smallest).
