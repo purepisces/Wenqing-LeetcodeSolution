@@ -14,9 +14,32 @@ for c in t:
         countT[c] += 1
 ```
 -----------------------
+The expression ",".join(res) is used in Python to concatenate a list of strings into a single string, with each element separated by a comma.
+```python
+res = ["apple", "banana", "cherry"]
+result = ",".join(res)
+print(result)
+```
+output
+```
+apple,banana,cherry
+```
+
+The expression vals = data.split(",") is used in Python to split a string into a list of substrings based on a specified delimiter, in this case, a comma.
+```python
+data = "apple,banana,cherry"
+vals = data.split(",")
+print(vals)
+```
+output
+```
+['apple', 'banana', 'cherry']
+```
 
 
 
+
+-----------------------
 ```
 q = deque()
 ```
