@@ -1,3 +1,17 @@
+pair.sort(reverse=True) is a Python command used to sort a list named pair in descending order.
+
+reverse=True: This is an optional argument for the sort() method. By default, sort() arranges the list in ascending order (from smallest to largest). When you set reverse=True, it sorts the list in descending order (from largest to smallest).
+
+```python
+pair = [5, 2, 9, 1]
+pair.sort(reverse=True)
+print(pair)
+```
+output
+```
+[9, 5, 2, 1]
+```
+-----------------------
 
 ```python
 countT = {}
