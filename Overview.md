@@ -1,8 +1,9 @@
 # Tree
 
 BFS Template
-102. Binary Tree Level Order Traversal: https://leetcode.com/problems/binary-tree-level-order-traversal/description/
-```
+102. Binary Tree Level Order Traversal: 
+https://leetcode.com/problems/binary-tree-level-order-traversal/description/
+```python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, val=0, left=None, right=None):
