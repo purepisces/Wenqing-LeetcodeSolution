@@ -1,3 +1,12 @@
+```
+print([0]*5)
+```
+output
+```
+[0, 0, 0, 0, 0]
+```
+-----------------------
+
 The enumerate function in Python is a built-in function that adds a counter to an iterable (such as a list) and returns it as an enumerate object. 
 
 ```python
