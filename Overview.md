@@ -1,4 +1,7 @@
 # Tree
+1. In a tree problem, consider the base case where the root node doesn't exist.
+2. Consider the tree's depth to see how the problem relates to its depth."
+
 
 BFS Template
 102. Binary Tree Level Order Traversal: 
