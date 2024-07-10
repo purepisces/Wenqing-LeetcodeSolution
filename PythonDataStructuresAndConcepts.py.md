@@ -208,13 +208,13 @@ class Solution(object):
 -----------------------
 
 Make the result truncate towards zero, using `int(float(b)/a)`: https://leetcode.com/problems/evaluate-reverse-polish-notation/description/
-However, note that in online python compiler, int(float(b)/a) and int(b/a) both truncate towards zero, but in leetcode it doesn't work.
+However, note that in online python compiler, i`nt(float(b)/a)` and `int(b/a)` both truncate towards zero, but in leetcode it doesn't work.
 ```python
-result = int(float(b)/a) #will truncate towards zero
-result = int(b/a) # will not truncate towards zero
+result = int(float(b)/a) # Leetcode will truncate towards zero
+result = int(b/a) # Leetcode will not truncate towards zero
 result = 6/-132 #-0.045454545454545456
-result = int(float(6)/-132) #result = 0
-result = int(6/132)  #result = -1
+result = int(float(6)/-132) #Leetcode result = 0
+result = int(6/132)  #Leetcode result = -1
 ```
 
 
