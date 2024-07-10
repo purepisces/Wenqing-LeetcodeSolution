@@ -115,3 +115,34 @@ class Solution(object):
         return area
 
 ```
+Couse Schedule Template: [https://leetcode.com/problems/course-schedule-ii/](https://leetcode.com/problems/course-schedule-ii/description/)
+```
+class Solution:
+    def findOrder(self, numCourses, prerequisites):
+        preMap = {i: [] for i in range(numCourses)}
+        for crs, pre in prerequisites:
+            preMap[crs].append(pre)
+
+        output = []
+        visited, cycle = set(), set()
+
+        def dfs(crs):
+            if crs in cycle:
+                return False
+            if crs in visited:
+                return True
+
+            cycle.add(crs)
+            for pre in preMap[crs]:
+                if not dfs(pre):
+                    return False
+            cycle.remove(crs)
+            visited.add(crs)
+            output.append(crs)
+            return True
+
+        for c in range(numCourses):
+            if not dfs(c):
+                return []
+        return output
+```
