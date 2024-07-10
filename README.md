@@ -36,6 +36,9 @@
 - **Backtracking**
   - [Overview]()
   - [🌟🌟-78. Subsets](Backtracking/78-Subsets.md)
+- **Heap/Priority Queue**
+  - [Overview]()
+  - [🧠🧠🌟🌟Medium-621-Task-Scheduler](Heap-Priority-Queue/Medium-621-Task-Scheduler.md)
 
 - **SQL**
   - [Overview](SQL/sql.md)
