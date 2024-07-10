@@ -1,3 +1,10 @@
+# Heap/Priority Queue
+Since python doesn't have maxheap, so we convert the numbers to negative value:
+```python
+maxHeap = [-cnt for cnt in count.values()]
+heapq.heapify(maxHeap)
+```
+
 # Tree
 1. In a tree problem, consider the base case where the root node doesn't exist.
 2. Consider the tree's depth to see how the problem relates to its depth."
