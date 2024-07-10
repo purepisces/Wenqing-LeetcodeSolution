@@ -1,5 +1,17 @@
 Code
 ```python
+tasks = ["A","A","A", "B","B","B"]
+count = Counter(tasks)
+print(count)
+```
+output
+```
+Counter({u'A': 3, u'B': 3})
+```
+-----------------------
+
+Code
+```python
 print([0]*5)
 ```
 output
