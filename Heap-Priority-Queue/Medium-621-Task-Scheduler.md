@@ -1,7 +1,12 @@
+In each time, the lenghth of maxheap should represent the number of tasks it can choose, and each element of maxheap represents how many numbers it left for this certain tasks. From the stdout, you can see when time = 1, maxheap = [-3,-3], it means we have 2 tasks we can choose, and each one has 3.
+
+When time = 4 it is [], since it is idle time. And when time = 5, it is [-2], since we can just choose one task, and it has 2 left.
+
 Example
 ```
 Task = ["A","A","A", "B","B","B"]
 n = 3
+Explanation: A possible sequence is: A -> B -> idle -> idle -> A -> B -> idle -> idle -> A -> B.
 ```
 ```python
 class Solution(object):
