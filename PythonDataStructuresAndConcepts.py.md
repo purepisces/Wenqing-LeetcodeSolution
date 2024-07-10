@@ -6,7 +6,7 @@ print(count)
 ```
 output
 ```
-Counter({u'A': 3, u'B': 3})
+Counter({'A': 3, 'B': 3})
 ```
 -----------------------
 
