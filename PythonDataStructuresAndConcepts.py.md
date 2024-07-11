@@ -5,6 +5,12 @@ temp1[s[i]] = 1 + temp1.get(s[i],0)
 ```
 
 -----------------------
+if s[i] is from "a" to "z"
+```python
+count1[ord(s[i]) - ord("a")] +=1
+```
+-----------------------
+
 
 Code
 ```python
