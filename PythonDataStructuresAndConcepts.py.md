@@ -1,6 +1,8 @@
 ```
 for key, value in temp.items()
 ```
+The dict.values() method in Python returns a view object that displays a list of all the values in the dictionary.
+
 Code
 ```python
 my_dict = {
