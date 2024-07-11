@@ -1,3 +1,11 @@
+Solving Dictionary key value doesn't exist
+```python
+temp = {}
+temp1[s[i]] = 1 + temp1.get(s[i],0)
+```
+
+-----------------------
+
 Code
 ```python
 tasks = ["A","A","A", "B","B","B"]
