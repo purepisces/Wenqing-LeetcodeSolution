@@ -180,4 +180,5 @@ class Solution(object):
 
         return dfs(0, -1) and n == len(visit)
 ```
+Union Find Template:
 
