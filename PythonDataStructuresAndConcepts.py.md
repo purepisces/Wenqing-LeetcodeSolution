@@ -1,3 +1,4 @@
+
 ```
 for key, value in temp.items()
 ```
@@ -18,6 +19,10 @@ print(values)
 Output
 ```
 ['New York', 25, 'Alice']
+```
+The default_factory is a function that provides the default value for the dictionary. When a key that does not exist in the dictionary is accessed, the default_factory function is called to provide a default value for the key.
+```
+temp =  collections.defaultdict(list)
 ```
 -----------------------
 
