@@ -1,8 +1,21 @@
 ```
 for key, value in temp.items()
 ```
+Code
+```python
+my_dict = {
+            'name': 'Alice',
+            'age': 25,
+            'city': 'New York'
+        }
+
+values = my_dict.values()
+
+print(values)
 ```
-temp.values()
+Output
+```
+['New York', 25, 'Alice']
 ```
 -----------------------
 
