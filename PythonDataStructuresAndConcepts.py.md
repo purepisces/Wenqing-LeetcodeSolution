@@ -1,6 +1,9 @@
 ```
 for key, value in temp.items()
 ```
+```
+temp.values()
+```
 -----------------------
 
 Solving Dictionary key value doesn't exist
