@@ -1,3 +1,8 @@
+```
+for key, value in temp.items()
+```
+-----------------------
+
 Solving Dictionary key value doesn't exist
 ```python
 temp = {}
