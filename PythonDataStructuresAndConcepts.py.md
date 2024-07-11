@@ -1,5 +1,9 @@
-
+```python
+for i in range(len(freq)-1,-1,-1):
 ```
+-----------------------
+
+```python
 for key, value in temp.items()
 ```
 The dict.values() method in Python returns a view object that displays a list of all the values in the dictionary.
