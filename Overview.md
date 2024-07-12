@@ -221,9 +221,39 @@ class Solution(object):
 # Backtracking
 
 1. Note using copy like nums[:], subset[:]
+
+Combination Sum II template: https://leetcode.com/problems/combination-sum-ii/description/
+```python
+class Solution(object):
+    def combinationSum2(self, candidates, target):
+        """
+        :type candidates: List[int]
+        :type target: int
+        :rtype: List[List[int]]
+        """
+        candidates.sort()
+        res = []
+        subset = []
+        def dfs(i, val):
+            if val == target:
+                res.append(subset[:])
+                return 
+            if i >= len(candidates) or val > target:
+                return 
+            subset.append(candidates[i])
+            val+=candidates[i]
+            dfs(i+1, val)
+            subset.pop()
+            while i + 1 <= len(candidates) -1 and candidates[i] == candidates[i+1]:
+                i+=1
+            val -=candidates[i]
+            dfs(i+1,val)
+        dfs(0,0)
+        return res
+```
    
 Permutation Template: https://leetcode.com/problems/permutations/description/
-```
+```python
 class Solution(object):
     def permute(self, nums):
         """
