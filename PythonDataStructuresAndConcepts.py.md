@@ -88,6 +88,11 @@ output
 
 
 -----------------------
+s.index('#', i) returns the index of the first occurrence of # starting from position i in the string s.
+```python
+s.index('#', i)
+```
+-----------------------
 
 The enumerate function in Python is a built-in function that adds a counter to an iterable (such as a list) and returns it as an enumerate object. 
 
