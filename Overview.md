@@ -274,6 +274,8 @@ class Solution(object):
 ```
 # Dynamic Programming
 
+<img src="climbstairs.png" alt=""climbstairs" width="400" height="300"/>
+
 1. Bottome Up solution: https://leetcode.com/problems/climbing-stairs/description/
    
 ```python
