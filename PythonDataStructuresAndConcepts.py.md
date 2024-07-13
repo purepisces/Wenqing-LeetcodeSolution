@@ -297,13 +297,14 @@ result = int(6/132)  #Leetcode result = -1
 
 -----------------------
 count = defaultdict(int, sum(map(Counter, board), Counter())) : https://leetcode.com/problems/word-search/description/
+
+Code:
 ```python
 # The expression map(Counter, board) applies the Counter function from the collections module to each element (row) of the board.
 
 # The sum function here is used to combine these Counter objects into a single Counter with combined frequencies
 
 # defaultdict(int, sum(map(Counter, board), Counter())) converts this combined Counter into a defaultdict(int). This way, if you access a character that is not in the combined Counter, it will return 0 instead of raising a KeyError.
-
 
 from collections import defaultdict, Counter
 
@@ -321,4 +322,12 @@ for counter in counters:
 
 print(count) 
 print("count['Z'] is", count['Z'])
+```
+Output
+```
+Counter({'A': 1, 'B': 1, 'C': 1, 'E': 1})
+Counter({'S': 2, 'F': 1, 'C': 1})
+Counter({'E': 2, 'A': 1, 'D': 1})
+defaultdict(<class 'int'>, {'A': 2, 'B': 1, 'C': 2, 'E': 3, 'S': 2, 'F': 1, 'D': 1})
+count['Z'] is 0
 ```
