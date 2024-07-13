@@ -272,4 +272,19 @@ class Solution(object):
             nums.append(n)
         return res
 ```
+# Dynamic Programming
+
+1. Bottome Up solution: https://leetcode.com/problems/climbing-stairs/description/
+   
+```python
+class Solution(object):
+    def climbStairs(self, n):
+        one = 1
+        two = 1
+        for i in range(n-1):
+            temp = two
+            two = one + two
+            one = temp
+        return two
+```
 
