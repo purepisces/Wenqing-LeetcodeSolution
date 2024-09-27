@@ -23,3 +23,12 @@ Returns:
 -   `int`: the minimum number of moves needed to sort the array in ascending order.
 
 **Code Implementation**
+```python
+def getMinimumMoves(arr):
+    sorted_arr = sorted(arr)
+    longest_increasing_subsequence = 0
+    for i in range(len(arr)):
+        if sorted_arr[longest_increasing_subsequence] == arr[i]:
+            longest_increasing_subsequence += 1
+    return len(arr) - longest_increasing_subsequence
+```
