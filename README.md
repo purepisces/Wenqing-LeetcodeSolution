@@ -42,6 +42,7 @@
  
 - **Tree**
   - [Overview](Tree/Tree.md)
+  - [Medium-199-Binary-Tree-Right-Side-View](Tree/Medium-199-Binary-Tree-Right-Side-View.md)
 
 - **SQL**
   - [Overview](SQL/sql.md)
