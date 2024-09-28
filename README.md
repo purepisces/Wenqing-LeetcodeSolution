@@ -39,6 +39,9 @@
 - **Heap/Priority Queue**
   - [Overview]()
   - [🧠🧠🌟🌟Medium-621-Task-Scheduler](Heap-Priority-Queue/Medium-621-Task-Scheduler.md)
+ 
+- **Tree**
+  - [Overview](Tree.md)
 
 - **SQL**
   - [Overview](SQL/sql.md)
