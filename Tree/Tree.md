@@ -20,7 +20,6 @@ class Solution(object):
 
         while q:
             val = []
-
             for i in range(len(q)):
                 node = q.popleft()
                 val.append(node.val)
