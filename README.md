@@ -42,6 +42,7 @@
  
 - **Tree**
   - [Overview](Tree/Tree.md)
+  - [🧠🧠Medium-230-Kth-Smallest-Element-in-a-BST](Tree/Medium-230-Kth-Smallest-Element-in-a-BST.md)
   - [Medium-102-Binary-Tree-Level-Order-Traversal](Tree/Medium-102-Binary-Tree-Level-Order-Traversal.md)
   - [Medium-199-Binary-Tree-Right-Side-View](Tree/Medium-199-Binary-Tree-Right-Side-View.md)
   - [🧠Medium-98-Validate-Binary-Search-Tree](Tree/Medium-98-Validate-Binary-Search-Tree.md)
