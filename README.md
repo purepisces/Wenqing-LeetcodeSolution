@@ -47,6 +47,7 @@
   - [🧠🧠Medium-230-Kth-Smallest-Element-in-a-BST](Tree/Medium-230-Kth-Smallest-Element-in-a-BST.md)
   - [Medium-102-Binary-Tree-Level-Order-Traversal](Tree/Medium-102-Binary-Tree-Level-Order-Traversal.md)
   - [Medium-199-Binary-Tree-Right-Side-View](Tree/Medium-199-Binary-Tree-Right-Side-View.md)
+  - [Medium-1448-Count-Good-Nodes-in-Binary-Tree](Tree/Medium-1448-Count-Good-Nodes-in-Binary-Tree.md)
 
 
 - **SQL**
