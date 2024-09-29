@@ -49,6 +49,9 @@
   - [Medium-199-Binary-Tree-Right-Side-View](Tree/Medium-199-Binary-Tree-Right-Side-View.md)
   - [Medium-1448-Count-Good-Nodes-in-Binary-Tree](Tree/Medium-1448-Count-Good-Nodes-in-Binary-Tree.md)
 
+- **Linked List**
+  - [Overview](Linked-List/Linked-List.md)
+  - [Easy-21-Merge-Two-Sorted-Lists](Linked-List/Easy-21-Merge-Two-Sorted-Lists.md)
 
 - **SQL**
   - [Overview](SQL/sql.md)
