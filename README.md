@@ -38,6 +38,7 @@
   - [🌟🌟-78. Subsets](Backtracking/78-Subsets.md)
 - **Heap/Priority Queue**
   - [Overview](Heap-Priority-Queue/Heap.md)
+  - [🌟🌟Easy-703-Kth-Largest-Element-in-a-Stream](Heap-Priority-Queue/Easy-703-Kth-Largest-Element-in-a-Stream.md)
   - [🧠🧠🌟🌟Medium-621-Task-Scheduler](Heap-Priority-Queue/Medium-621-Task-Scheduler.md)
  
 - **Tree**
