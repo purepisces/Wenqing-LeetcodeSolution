@@ -37,6 +37,7 @@
   - [Overview]()
   - [🌟🌟-78. Subsets](Backtracking/78-Subsets.md)
   - [Medium-39-Combination-Sum](Backtracking/Medium-39-Combination-Sum.md)
+  - [🧠🧠Medium-46-Permutations](Backtracking/Medium-46-Permutations.md)
 - **Heap/Priority Queue**
   - [Overview](Heap-Priority-Queue/Heap.md)
   - [🌟🌟Easy-703-Kth-Largest-Element-in-a-Stream](Heap-Priority-Queue/Easy-703-Kth-Largest-Element-in-a-Stream.md)
