@@ -34,3 +34,14 @@ class Solution(object):
             second.next = tmp1
             first, second = tmp1, tmp2
 ```
+___
+## Finding middle element
+```python
+slow, fast = head, head.next
+while fast and fast.next:
+    slow = slow.next
+    fast = fast.next.next
+```
+For example, [1,2,3,4,5] the slow will stop at 3, fast will stop at None(after 5)
+
+[1,2,3,4,5,6], the slow will stop at 3, fast will stop at 6.
