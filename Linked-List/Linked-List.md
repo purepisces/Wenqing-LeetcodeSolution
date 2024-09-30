@@ -45,3 +45,9 @@ while fast and fast.next:
 For example, [1,2,3,4,5] the slow will stop at 3, fast will stop at None(after 5)
 
 [1,2,3,4,5,6], the slow will stop at 3, fast will stop at 6.
+
+### Why This Works:
+
+Since `fast` moves twice as fast as `slow`, if the list has `n` nodes:
+
+-   By the time `fast` reaches the end (after approximately `n//2` iterations), `slow` will have moved `n//2` steps, landing in the middle of the list.
