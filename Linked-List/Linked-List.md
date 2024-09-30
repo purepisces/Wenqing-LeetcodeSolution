@@ -51,3 +51,25 @@ For example, [1,2,3,4,5] the slow will stop at 3, fast will stop at None(after 5
 Since `fast` moves twice as fast as `slow`, if the list has `n` nodes:
 
 -   By the time `fast` reaches the end (after approximately `n//2` iterations), `slow` will have moved `n//2` steps, landing in the middle of the list.
+
+## Reverse Linked List
+206: https://leetcode.com/problems/reverse-linked-list/description/
+```python
+# Definition for singly-linked list.
+# class ListNode:
+#     def __init__(self, x):
+#         self.val = x
+#         self.next = None
+
+
+class Solution:
+    def reverseList(self, head: ListNode) -> ListNode:
+        prev, curr = None, head
+
+        while curr:
+            temp = curr.next
+            curr.next = prev
+            prev = curr
+            curr = temp
+        return prev
+```
