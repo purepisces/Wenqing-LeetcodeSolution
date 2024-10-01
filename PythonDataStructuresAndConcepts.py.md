@@ -2,6 +2,13 @@
 for i in range(len(freq)-1,-1,-1):
 ```
 -----------------------
+```python
+count = [0] * 8
+count = [0 for i in range(8)]
+print(count)
+# [0, 0, 0, 0, 0, 0, 0, 0]
+```
+___
 
 ```python
 for key, value in temp.items()
