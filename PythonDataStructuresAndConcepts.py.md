@@ -233,9 +233,13 @@ both q.append(x), q.appendleft(x), q.pop(), and q.popleft() operations on a dequ
 
 -----------------------
 
-In number of islands, when we make visit = set()
-and  visit.add((r,c))
-we should not visit.add([r,c]) since type 'list' is unhashable
+-   **Lists** are mutable and unhashable, so they cannot be used in sets or as dictionary keys.
+-   **Tuples** are immutable and hashable, so they can be used in sets or as dictionary keys.
+
+In [200. Number of Islands](https://leetcode.com/problems/number-of-islands/) when we make `visit = set()` and  `visit.add((r,c))`
+we should not `visit.add([r,c])` since type 'list' is unhashable
+
+In [49. Group Anagrams](https://leetcode.com/problems/group-anagrams/), we should not make `ans[tuple(count)].append(s)` where count is a list, we should make it to`ans[tuple(count)].append(s)`, since TypeError: unhashable type: 'list'.
 
 -----------------------
 
