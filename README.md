@@ -79,4 +79,5 @@
 
 ## Star Problem
  - [Sort an array](Star-Problem/Sort_an_array.md)
+ - [714 Best Time to Buy and Sell Stock with Transaction Fee](Star-Problem/714-Best-Time-to-Buy-and-Sell-Stock-with-Transaction-Fee.md)
 
