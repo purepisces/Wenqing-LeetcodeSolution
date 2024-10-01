@@ -61,6 +61,7 @@
 - **1-D Dynamic Programming**
   - [Overview](1-D-Dynamic-Programming/1-D-Dynamic-Programming.md)
   - [🧠🌟Medium-213-House-Robber-II](1-D-Dynamic-Programming/Medium-213-House-Robber-II.md)
+  - [🧠🧠Medium-5-Longest-Palindromic-Substring](1-D-Dynamic-Programming/Medium-5-Longest-Palindromic-Substring.md)
   - [Easy-70-Climbing-Stairs](1-D-Dynamic-Programming/Easy-70-Climbing-Stairs.md)
 
 - **SQL**
