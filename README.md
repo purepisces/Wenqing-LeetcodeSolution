@@ -57,6 +57,10 @@
   - [🧠🧠🌟🌟Medium-143-Reorder-List](Linked-List/Medium-143-Reorder-List.md)
   - [🧠🧠Medium-19-Remove-Nth-Node-From-End-of-List](Linked-List/Medium-19-Remove-Nth-Node-From-End-of-List.md)
   - [Easy-21-Merge-Two-Sorted-Lists](Linked-List/Easy-21-Merge-Two-Sorted-Lists.md)
+ 
+- **1-D Dynamic Programming**
+  - [Overview](1-D-Dynamic-Programming/1-D-Dynamic-Programming.md)
+  - [Easy-70-Climbing-Stairs](1-D-Dynamic-Programming/Easy-70-Climbing-Stairs.md)
 
 - **SQL**
   - [Overview](SQL/sql.md)
