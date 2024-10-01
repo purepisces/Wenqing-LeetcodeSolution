@@ -1,4 +1,5 @@
 For a tree, it cannot have a loop and every node needs to be connected.
+Similar to course schedule question: https://leetcode.com/problems/course-schedule/description/
 ```python
 class Solution(object):
     def validTree(self, n, edges):
