@@ -1,6 +1,16 @@
 我们通过树结构来优化算法, 可以画个图.
 首先比如apple的话 第一层root就是a, 然后第二层是p,第三层是p,第四层是l, 第五层是e.
 然后就需要每个node有children这个概念来保存代表这个递进性,同时还需要每个node有endofword的标识,因为search apple True, 但是search app false.
+```css
+Root (TrieNode) -> children = {'c': TrieNode}
+ |
+ -- 'c' (TrieNode) -> children = {'a': TrieNode}
+      |
+      -- 'a' (TrieNode) -> children = {'t': TrieNode, 'r': TrieNode}
+          |
+          -- 't' (TrieNode) -> children = {}, endOfWord = True (for "cat")
+          -- 'r' (TrieNode) -> children = {}, endOfWord = True (for "car")
+```
 
 ```python
 class TrieNode():
