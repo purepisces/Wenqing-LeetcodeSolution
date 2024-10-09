@@ -70,3 +70,15 @@ class Trie(object):
 # param_2 = obj.search(word)
 # param_3 = obj.startsWith(prefix)
 ```
+___
+wrong implementation:
+1.mistakenly assigned the Trienode class itself to cur.children[c] instead of creating an instance of it. Specifically, this line:
+```
+# wrong implementation
+cur.children[c] = Trienode
+```
+should be
+```
+# correct implementation
+cur.children[c] = Trienode()
+```
