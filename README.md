@@ -78,6 +78,7 @@
   - [🧠🧠Medium-5-Longest-Palindromic-Substring](1-D-Dynamic-Programming/Medium-5-Longest-Palindromic-Substring.md)
   - [🧠🌟Medium-322-Coin-Change](1-D-Dynamic-Programming/Medium-322-Coin-Change.md)
   - [🌟Medium-91-Decode-Ways](1-D-Dynamic-Programming/Medium-91-Decode-Ways.md)
+  - [🧠🌟Medium-139-Word-Break](1-D-Dynamic-Programming/Medium-139-Word-Break.md)
   - [Easy-70-Climbing-Stairs](1-D-Dynamic-Programming/Easy-70-Climbing-Stairs.md)
 
 - **SQL**
