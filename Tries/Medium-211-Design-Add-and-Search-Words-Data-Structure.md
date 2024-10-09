@@ -1,3 +1,14 @@
+dfs(0, self.root)
+because we are finding if word[0] exist in root.children
+if dfs(2,a), it means we are finding if word[2] exist in a.children, each index is corresponding to current node.children not currect node, since if it is currecnt node, then it will be a 1 to 1 mapping, doesn't make sense.
+for example
+```css
+root
+a b c
+```
+if word[0] = b, we are finding if word[0] in self.root.children, not self.root.
+
+
 ```python
 class TrieNode():
     def __init__(self):
