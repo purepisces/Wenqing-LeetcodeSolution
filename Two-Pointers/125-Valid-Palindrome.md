@@ -57,3 +57,27 @@ class Solution(object):
             r-=1
         return True
 ```
+___
+
+my bad implementation
+```python
+#bad implementation
+class Solution(object):
+    def isPalindrome(self, s):
+        """
+        :type s: str
+        :rtype: bool
+        """
+        l = 0
+        r = len(s) - 1
+        while l < r:
+            while not s[l].isalnum() and l < len(s)-1:
+                l+=1
+            while not s[r].isalnum() and r > 0:
+                r-=1
+            if l<r and s[l].isalnum() and s[r].isalnum() and s[l].lower()!=s[r].lower():
+                return False
+            l+=1
+            r-=1
+        return True
+```
