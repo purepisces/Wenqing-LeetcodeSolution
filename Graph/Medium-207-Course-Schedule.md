@@ -6,6 +6,8 @@ To take course 1 you should have finished course 0. So it is possible.
 
 Then premap will contain {0: [], 1: [0]}, since we need take 0 to finish 1.
 
+dfs(c) is for checking if this course we can finish.
+
 
 ```python
 class Solution(object):
