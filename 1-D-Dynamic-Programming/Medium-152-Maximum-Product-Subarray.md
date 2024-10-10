@@ -1,3 +1,5 @@
+since it has negative values
+
 ```python
 class Solution(object):
     def maxProduct(self, nums):
