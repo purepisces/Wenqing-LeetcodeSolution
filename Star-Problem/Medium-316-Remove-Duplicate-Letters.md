@@ -6,25 +6,27 @@ class Solution(object):
         :type s: str
         :rtype: str
         """
-        last_occurrence = {char: idx for idx, char in enumerate(s)}  # Store last occurrence of each character
+        # Keep track of the last occurrence of each character in the string
+        last_occurrence = {ch: idx for idx, ch in enumerate(s)}
+        
         stack = []
-        visited = set()  # To track the characters already in the stack
         
-        for i, char in enumerate(s):
-            if char in visited:
-                continue  # Skip if the character is already in the stack
+        for idx, ch in enumerate(s):
+            # If the character is already in the stack, skip it
+            if ch in stack:
+                continue
             
-            # Remove characters from the stack if they are greater than the current character and 
-            # they appear later in the string (based on their last occurrence)
-            while stack and stack[-1] > char and last_occurrence[stack[-1]] > i:
-                removed_char = stack.pop()
-                visited.remove(removed_char)
+            # While the stack is not empty, and the current character is smaller than the last character in the stack
+            # and the last character will appear later, pop the stack
+            while stack and ch < stack[-1] and idx < last_occurrence[stack[-1]]:
+                stack.pop()
             
-            # Add current character to stack and mark it as visited
-            stack.append(char)
-            visited.add(char)
+            # Add the current character to the stack
+            stack.append(ch)
         
+        # Join the stack to form the result string
         return ''.join(stack)
+                
 ```
 
 space complexity:
