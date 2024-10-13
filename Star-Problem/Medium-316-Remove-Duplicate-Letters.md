@@ -26,3 +26,8 @@ class Solution(object):
         
         return ''.join(stack)
 ```
+
+space complexity:
+
+time complexity:
+
