@@ -38,7 +38,7 @@
   - [🌟🧠Hard-42-Trapping-Rain-Water](Two-Pointers/42-Trapping-Rain-Water.md)
 - **Sliding Window**
   - [Overview]()
-  - [🌟🌟-3. Longest Substring Without Repeating Characters]()
+  - [🌟🧠Easy-121-Best-Time-to-Buy-and-Sell-Stock](Sliding-Window/Easy-121-Best-Time-to-Buy-and-Sell-Stock.md)
 - **Backtracking**
   - [Overview]()
   - [🌟🌟-78. Subsets](Backtracking/78-Subsets.md)
