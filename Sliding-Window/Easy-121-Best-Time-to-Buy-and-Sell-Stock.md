@@ -1,4 +1,8 @@
 Sliding window approach:
+
+
+Consider the example `[2, 15, 1, 21, 5, 6, 9]`. The sliding window moves from `[2, 15]` to `[1, 21]`, not considering `[2, 21]` because `1` is the minimum value before `21`. The left pointer always points to the minimum value before the right pointer, allowing us to determine the maximum profit in this window. For `21`, since the minimum value before it is the element `1` at index 2, we update `l` accordingly. If `1` is less than `2`, then for any value greater than `1`, the maximum profit will be `prices[i] - 1`, not `prices[i] - 2`.
+
 ```python
 class Solution(object):
     def maxProfit(self, prices):
