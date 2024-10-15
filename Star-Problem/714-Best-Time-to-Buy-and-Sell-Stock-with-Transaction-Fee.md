@@ -66,21 +66,3 @@ class Solution(object):
         # The result is the profit without holding any stock at the last day
         return dp[n-1][0]
 ```
-```python
-class Solution(object):
-    def maxProfit(self, prices, fee):
-        """
-        :type prices: List[int]
-        :type fee: int
-        :rtype: int
-        """
-        buy, sell = -sys.maxsize, 0
-        
-        for price in prices:
-            # buy: max of the current buy or the current profit after considering the current price and the transaction fee
-            buy = max(buy, sell - price)
-            # sell: max of the current sell or the profit after considering the current price
-            sell = max(sell, buy + price - fee)
-        
-        return sell
-```
