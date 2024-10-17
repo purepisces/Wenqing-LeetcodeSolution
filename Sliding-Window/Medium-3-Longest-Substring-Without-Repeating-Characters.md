@@ -5,7 +5,7 @@ class Solution(object):
         :type s: str
         :rtype: int
         """
-       charSet = set()
+        charSet = set()
         l = 0
         res = 0
 
