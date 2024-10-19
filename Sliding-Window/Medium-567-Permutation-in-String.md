@@ -1,6 +1,24 @@
-Firstly compare the ab and ei and then compare ab with id and then compare ab with db.
+Consider the example: **Input**: `s1 = "ab"`, `s2 = "eidboaoo"`.
 
-Input: s1 = "ab", s2 = "eidboaoo"
+First, we compare `"ab"` with `"ei"`. If it matches, we can return `True` immediately. Otherwise, the for-loop continues, comparing `"ab"` with the next window, `"id"`, and then `"db"`.
+
+When moving from `"ei"` to `"id"`, we **add 'd'** and **remove 'e'** from the sliding window. This is done by:
+```python
+index = ord(s2[r]) - ord("a")  # Add new character
+s2Count[index] += 1
+
+index = ord(s2[l]) - ord("a")  # Remove old character
+s2Count[index] -= 1
+```
+For the `elif` part:
+
+```python
+
+elif s1Count[index] + 1 == s2Count[index]:
+    matches -= 1
+```
+
+We don't just use `else` here because the goal is to ensure `matches` behaves like a **boolean value** for each character, where `0` represents "not equal" and `1` represents "equal." This logic ensures `matches` is updated only when the equality state between the character counts changes, maintaining the correctness of the comparison.
 
 ```python
 class Solution(object):
