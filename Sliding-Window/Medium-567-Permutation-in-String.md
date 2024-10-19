@@ -1,3 +1,7 @@
+Firstly compare the ab and ei and then compare ab with id and then compare ab with db.
+
+Input: s1 = "ab", s2 = "eidboaoo"
+
 ```python
 class Solution(object):
     def checkInclusion(self, s1, s2):
@@ -36,3 +40,4 @@ class Solution(object):
             l += 1
         return matches == 26
 ```
+
