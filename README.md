@@ -43,6 +43,7 @@
   - [🌟🧠Medium-567-Permutation-in-String](Sliding-Window/Medium-567-Permutation-in-String.md)
   - [🌟🧠Hard-76-Minimum-Window-Substring](Sliding-Window/Hard-76-Minimum-Window-Substring.md)
   - [🌟🧠Easy-121-Best-Time-to-Buy-and-Sell-Stock](Sliding-Window/Easy-121-Best-Time-to-Buy-and-Sell-Stock.md)
+  - [🌟🧠Hard-239-Sliding-Window-Maximum](Sliding-Window/Hard-239-Sliding-Window-Maximum.md)
   
 - **Backtracking**
   - [Overview]()
