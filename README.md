@@ -11,6 +11,16 @@
 
 
 ## Leetcode Topic
+
+- **Sliding Window**
+  - [Overview](Sliding-Window/Sliding-Window.md)
+  - [🌟🧠Medium-567-Permutation-in-String](Sliding-Window/Medium-567-Permutation-in-String.md)
+  - [🌟🌟🧠🧠Medium-424-Longest-Repeating-Character-Replacement](Sliding-Window/Medium-424-Longest-Repeating-Character-Replacement.md)
+  - [🌟🌟Medium-3-Longest-Substring-Without-Repeating-Characters](Sliding-Window/Medium-3-Longest-Substring-Without-Repeating-Characters.md)
+  - [🌟🧠Hard-76-Minimum-Window-Substring](Sliding-Window/Hard-76-Minimum-Window-Substring.md)
+  - [🌟🧠Easy-121-Best-Time-to-Buy-and-Sell-Stock](Sliding-Window/Easy-121-Best-Time-to-Buy-and-Sell-Stock.md)
+  - [🌟🧠Hard-239-Sliding-Window-Maximum](Sliding-Window/Hard-239-Sliding-Window-Maximum.md)
+    
 - **Tries**
   - [Overview](Tries/Tries.md)
   - [🌟🌟Medium-208-Implement-Trie (Prefix Tree)](Tries/Medium-208-Implement-Trie-Prefix-Tree.md)
@@ -36,14 +46,6 @@
   - [🌟Medium-15-3Sum](Two-Pointers/15-3Sum.md)
   - [Medium-11-Container-With-Most-Water](Two-Pointers/11-Container-With-Most-Water.md)
   - [🌟🧠Hard-42-Trapping-Rain-Water](Two-Pointers/42-Trapping-Rain-Water.md)
-- **Sliding Window**
-  - [Overview](Sliding-Window/Sliding-Window.md)
-  - [🌟🌟🧠🧠Medium-424-Longest-Repeating-Character-Replacement](Sliding-Window/Medium-424-Longest-Repeating-Character-Replacement.md)
-  - [🌟🌟Medium-3-Longest-Substring-Without-Repeating-Characters](Sliding-Window/Medium-3-Longest-Substring-Without-Repeating-Characters.md)
-  - [🌟🧠Medium-567-Permutation-in-String](Sliding-Window/Medium-567-Permutation-in-String.md)
-  - [🌟🧠Hard-76-Minimum-Window-Substring](Sliding-Window/Hard-76-Minimum-Window-Substring.md)
-  - [🌟🧠Easy-121-Best-Time-to-Buy-and-Sell-Stock](Sliding-Window/Easy-121-Best-Time-to-Buy-and-Sell-Stock.md)
-  - [🌟🧠Hard-239-Sliding-Window-Maximum](Sliding-Window/Hard-239-Sliding-Window-Maximum.md)
   
 - **Backtracking**
   - [Overview]()
