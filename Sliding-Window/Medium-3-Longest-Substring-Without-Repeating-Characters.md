@@ -1,3 +1,13 @@
+**Slinding Window Size**
+
+Input: s = "pwwkew"
+
+Output: 3
+
+Explanation: The answer is "wke", with the length of 3. Notice that the answer must be a substring, "pwke" is a subsequence and not a substring.
+
+Sliding window form "p" to "pw" to "w" to "wk" to "wke" to "kew"
+
 ```python
 class Solution(object):
     def lengthOfLongestSubstring(self, s):
