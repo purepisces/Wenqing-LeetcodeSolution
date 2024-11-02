@@ -1,3 +1,11 @@
+**Sliding window size**
+Input: s = "AABABBA", k = 1
+Output: 4
+Explanation: Replace the one 'A' in the middle with 'B' and form "AABBBBA".
+The substring "BBBB" has the longest repeating letters, which is 4.
+There may exists other ways to achieve this answer too.
+
+From "A” to "AA" to "AAB" to "AABA" to "AABAB" to "ABABB" to "BABBA" to "ABBA"(due to  if (r-l+1) - maxf > k, l+=1)
 ```python
 class Solution(object):
     def characterReplacement(self, s, k):
