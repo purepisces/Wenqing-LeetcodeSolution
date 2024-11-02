@@ -59,4 +59,5 @@ print result
 ('r is', 6)
 ('l is', 3)
 ```
-Note that in the final loop, when it goes to l =2, r = 6, with window size = 5, which is "BABBA", but finally it will move left point to the right, and which makes sure the final window size is the valid window.
+
+Note that at the start of the final loop, when l = 2 and r = 6, the window size is 5, which corresponds to the substring 'BABBA'. However, the left pointer will goes to " if (r-l+1) - maxf > k:" and eventually move to the right, ensuring that the final window size remains valid.
