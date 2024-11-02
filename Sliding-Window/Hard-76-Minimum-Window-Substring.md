@@ -1,3 +1,12 @@
+**Sliding window size**
+
+Input: s = "ADOBECODEBANC", t = "ABC"
+Output: "BANC"
+Explanation: The minimum window substring "BANC" includes 'A', 'B', and 'C' from string t.
+
+In while have == need part, From "ADOBEC" to "DOBECODEBA" to "OBECODEBA" to "BECODEBA" to "ECODEBA" to "CODEBA" to "ODEBANC" to "DEBANC" to "EBANC" to "BANC"
+
+
 ```python
 class Solution(object):
     def minWindow(self, s, t):
