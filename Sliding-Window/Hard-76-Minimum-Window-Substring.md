@@ -6,6 +6,7 @@ Explanation: The minimum window substring "BANC" includes 'A', 'B', and 'C' from
 
 In while have == need part, From "ADOBEC" to "DOBECODEBA" to "OBECODEBA" to "BECODEBA" to "ECODEBA" to "CODEBA" to "ODEBANC" to "DEBANC" to "EBANC" to "BANC"
 
+每一次都找含有所有t里面元素的s里的subtring作为开始,然后r指针不动的情况下不断移动l指针, 来看缩小的sliding window是否符合要求. 因为比如首先找到"AAABC"满足包含“ABC", 但是“AABC"也满足包含”ABC", 再次移动发现“ABC"也满足包含“ABC". 所以最小的substring就是“ABC“.
 
 ```python
 class Solution(object):
