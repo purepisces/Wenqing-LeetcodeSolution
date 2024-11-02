@@ -1,9 +1,9 @@
+**Sliding window size**
 
 Input: s1 = "ab", s2 = "eidbaooo"
 Output: true
 Explanation: s2 contains one permutation of s1 ("ba").
 
-**Sliding window size**
 In the follwing code, the size of the sliding window is indeed fixed. Specifically, the window size is set to the length of `s1`. Sliding window from `ei` to `id` to `ba`.
 
 
