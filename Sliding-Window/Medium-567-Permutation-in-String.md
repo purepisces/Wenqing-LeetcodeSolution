@@ -20,6 +20,9 @@ elif s1Count[index] + 1 == s2Count[index]:
 
 We don't just use `else` here because the goal is to ensure `matches` behaves like a **boolean value** for each character, where `0` represents "not equal" and `1` represents "equal." This logic ensures `matches` is updated only when the equality state between the character counts changes, maintaining the correctness of the comparison.
 
+
+In this code, the size of the sliding window is indeed fixed. Specifically, the window size is set to the length of `s1`.
+
 ```python
 class Solution(object):
     def checkInclusion(self, s1, s2):
