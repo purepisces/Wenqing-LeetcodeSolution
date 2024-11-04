@@ -22,8 +22,12 @@
   - [🌟🧠Easy-121-Best-Time-to-Buy-and-Sell-Stock](Sliding-Window/Easy-121-Best-Time-to-Buy-and-Sell-Stock.md)
 
 - **Two Pointers**
-  - [Overview](Two-Pointers/Two-Pointers.md)
-  - [Easy-125-Valid-Palindrome](Two-Pointers/Easy-125-Valid-Palindrome.md)
+  - [Overview](Two-Pointers.md)
+  - [🌟Easy-125-Valid-Palindrome](Two-Pointers/125-Valid-Palindrome.md)
+  - [Medium-167-Two-Sum-II-Input-Array-Is-Sorted](Two-Pointers/167-Two-Sum-II-Input-Array-Is-Sorted.md)
+  - [🌟Medium-15-3Sum](Two-Pointers/15-3Sum.md)
+  - [Medium-11-Container-With-Most-Water](Two-Pointers/11-Container-With-Most-Water.md)
+  - [🌟🧠Hard-42-Trapping-Rain-Water](Two-Pointers/42-Trapping-Rain-Water.md)
 
 - **Tries**
   - [Overview](Tries/Tries.md)
@@ -42,13 +46,6 @@
   - [Medium-36-Valid-Sudoku](Arrays&Hashing/36_Valid_Sudoku.md)
   - [🌟🧠Medium-128-Longest-Consecutive-Sequence](Arrays&Hashing/128_Longest_Consecutive_Sequence.md)
   - [Medium-271-Encode-And-Decode-Strings](Arrays&Hashing/271_Encode_And_Decode_Strings.md)
-- **Two Pointers**
-  - [Overview](Two-Pointers.md)
-  - [🌟Easy-125-Valid-Palindrome](Two-Pointers/125-Valid-Palindrome.md)
-  - [Medium-167-Two-Sum-II-Input-Array-Is-Sorted](Two-Pointers/167-Two-Sum-II-Input-Array-Is-Sorted.md)
-  - [🌟Medium-15-3Sum](Two-Pointers/15-3Sum.md)
-  - [Medium-11-Container-With-Most-Water](Two-Pointers/11-Container-With-Most-Water.md)
-  - [🌟🧠Hard-42-Trapping-Rain-Water](Two-Pointers/42-Trapping-Rain-Water.md)
   
 - **Backtracking**
   - [Overview]()
