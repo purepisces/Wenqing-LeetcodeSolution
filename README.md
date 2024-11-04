@@ -14,12 +14,12 @@
 
 - **Sliding Window**
   - [Overview](Sliding-Window/Sliding-Window.md)
+  - [🌟🧠Hard-239-Sliding-Window-Maximum](Sliding-Window/Hard-239-Sliding-Window-Maximum.md)
   - [🌟🧠Medium-567-Permutation-in-String](Sliding-Window/Medium-567-Permutation-in-String.md)
   - [🌟🌟🧠🧠Medium-424-Longest-Repeating-Character-Replacement](Sliding-Window/Medium-424-Longest-Repeating-Character-Replacement.md)
   - [🌟🌟Medium-3-Longest-Substring-Without-Repeating-Characters](Sliding-Window/Medium-3-Longest-Substring-Without-Repeating-Characters.md)
   - [🌟🧠Hard-76-Minimum-Window-Substring](Sliding-Window/Hard-76-Minimum-Window-Substring.md)
   - [🌟🧠Easy-121-Best-Time-to-Buy-and-Sell-Stock](Sliding-Window/Easy-121-Best-Time-to-Buy-and-Sell-Stock.md)
-  - [🌟🧠Hard-239-Sliding-Window-Maximum](Sliding-Window/Hard-239-Sliding-Window-Maximum.md)
     
 - **Tries**
   - [Overview](Tries/Tries.md)
