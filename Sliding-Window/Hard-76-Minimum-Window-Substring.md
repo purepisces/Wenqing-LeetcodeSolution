@@ -130,4 +130,15 @@ class Solution(object):
 ('l is', 9)
 ('r is', 12)
 ```
+___
+Mistake 
+``python
+#wrong version
+window.get(0, c)
+```
+```
+correct version
+window.get(c, 0)
+```
+
 
