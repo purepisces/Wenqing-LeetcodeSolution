@@ -132,12 +132,12 @@ class Solution(object):
 ```
 ___
 Mistake 
-``python
+```python
 #wrong version
 window.get(0, c)
 ```
-```
-correct version
+```python
+#correct version
 window.get(c, 0)
 ```
 
