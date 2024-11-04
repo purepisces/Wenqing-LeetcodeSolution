@@ -20,13 +20,16 @@
   - [🌟🌟Medium-3-Longest-Substring-Without-Repeating-Characters](Sliding-Window/Medium-3-Longest-Substring-Without-Repeating-Characters.md)
   - [🌟🧠Hard-76-Minimum-Window-Substring](Sliding-Window/Hard-76-Minimum-Window-Substring.md)
   - [🌟🧠Easy-121-Best-Time-to-Buy-and-Sell-Stock](Sliding-Window/Easy-121-Best-Time-to-Buy-and-Sell-Stock.md)
-    
+
+- **Two Pointers**
+  - [Overview](Two-Pointers/Two-Pointers.md)
+  - [Easy-125-Valid-Palindrome](Two-Pointers/Easy-125-Valid-Palindrome.md)
+
 - **Tries**
   - [Overview](Tries/Tries.md)
   - [🌟🌟Medium-208-Implement-Trie (Prefix Tree)](Tries/Medium-208-Implement-Trie-Prefix-Tree.md)
   - [🌟🌟Medium-211-Design-Add-and-Search-Words-Data-Structure](Tries/Medium-211-Design-Add-and-Search-Words-Data-Structure.md)
-  - 
-- **Two Pointers**
+    
 - **Arrays&Hashing**
   - [Overview](Arrays&Hashing.md)
   - [Easy-217-Contains-Duplicate](Arrays&Hashing/217_Contains_Duplicate.md)
