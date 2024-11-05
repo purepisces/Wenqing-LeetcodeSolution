@@ -23,7 +23,7 @@
 
 - **Two Pointers**
   - [Overview](Two-Pointers.md)
-  - [🌟🧠Hard-42-Trapping-Rain-Water](Two-Pointers/42-Trapping-Rain-Water.md)
+  - [🌟🧠🧠Hard-42-Trapping-Rain-Water](Two-Pointers/42-Trapping-Rain-Water.md)
   - [🌟Medium-15-3Sum](Two-Pointers/15-3Sum.md)
   - [🌟Easy-125-Valid-Palindrome](Two-Pointers/125-Valid-Palindrome.md)
   - [Medium-167-Two-Sum-II-Input-Array-Is-Sorted](Two-Pointers/167-Two-Sum-II-Input-Array-Is-Sorted.md)
