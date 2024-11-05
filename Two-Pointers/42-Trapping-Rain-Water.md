@@ -51,7 +51,7 @@ Then, I watched NeetCode, which initializes the left and right pointers to the s
     - We use a constant amount of extra space regardless of the input size.
 
 # Code
-```
+```python
 class Solution(object):
     def trap(self, height):
         """
