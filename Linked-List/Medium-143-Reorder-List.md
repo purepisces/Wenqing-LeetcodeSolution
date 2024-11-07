@@ -33,3 +33,44 @@ class Solution(object):
             second.next = tmp1
             first, second = tmp1, tmp2
 ```
+___
+wrong version
+```python
+# Definition for singly-linked list.
+# class ListNode(object):
+#     def __init__(self, val=0, next=None):
+#         self.val = val
+#         self.next = next
+class Solution(object):
+    def reorderList(self, head):
+        """
+        :type head: Optional[ListNode]
+        :rtype: None Do not return anything, modify head in-place instead.
+        """
+        slow, fast = head, head
+        while fast and fast.next:
+            slow = slow.next
+            print(slow)
+            fast = fast.next.next
+        #[1,2,3,4,5] 3
+        #[1,2,3,4,5,6] 4
+        #[1,2,3] [5,4]
+        #[1,2,3] [6,5,4]
+        tmp = slow.next
+        slow.next = None
+        def reverse_list(head):
+            prev = None
+            cur = head
+            while cur:
+                tmp = cur.next
+                cur.next = prev
+                prev = cur
+                cur = tmp
+        return slow
+        list1 = head
+        list2 = reverse_list(tmp)
+        dummy = ListNode()
+        cur = dummy
+        while list1 and list2:
+            dummy.next = list1
+```
