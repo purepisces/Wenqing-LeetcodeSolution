@@ -1,5 +1,5 @@
 ___
-Set dummy node: https://leetcode.com/problems/merge-two-sorted-lists/description/
+Set dummy node, e.g.: https://leetcode.com/problems/merge-two-sorted-lists/description/
 ___
 
 143. Reorder List: https://leetcode.com/problems/reorder-list/description/
