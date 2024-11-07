@@ -28,6 +28,12 @@
   - [🌟Easy-125-Valid-Palindrome](Two-Pointers/125-Valid-Palindrome.md)
   - [Medium-167-Two-Sum-II-Input-Array-Is-Sorted](Two-Pointers/167-Two-Sum-II-Input-Array-Is-Sorted.md)
   - [Medium-11-Container-With-Most-Water](Two-Pointers/11-Container-With-Most-Water.md)
+ 
+- **Linked List**
+  - [Overview](Linked-List/Linked-List.md)
+  - [🧠🧠🌟🌟Medium-143-Reorder-List](Linked-List/Medium-143-Reorder-List.md)
+  - [🧠🧠Medium-19-Remove-Nth-Node-From-End-of-List](Linked-List/Medium-19-Remove-Nth-Node-From-End-of-List.md)
+  - [Easy-21-Merge-Two-Sorted-Lists](Linked-List/Easy-21-Merge-Two-Sorted-Lists.md)
 
 - **Tries**
   - [Overview](Tries/Tries.md)
@@ -65,12 +71,6 @@
   - [Medium-102-Binary-Tree-Level-Order-Traversal](Tree/Medium-102-Binary-Tree-Level-Order-Traversal.md)
   - [Medium-199-Binary-Tree-Right-Side-View](Tree/Medium-199-Binary-Tree-Right-Side-View.md)
   - [Medium-1448-Count-Good-Nodes-in-Binary-Tree](Tree/Medium-1448-Count-Good-Nodes-in-Binary-Tree.md)
-
-- **Linked List**
-  - [Overview](Linked-List/Linked-List.md)
-  - [🧠🧠🌟🌟Medium-143-Reorder-List](Linked-List/Medium-143-Reorder-List.md)
-  - [🧠🧠Medium-19-Remove-Nth-Node-From-End-of-List](Linked-List/Medium-19-Remove-Nth-Node-From-End-of-List.md)
-  - [Easy-21-Merge-Two-Sorted-Lists](Linked-List/Easy-21-Merge-Two-Sorted-Lists.md)
     
 - **Graph**
   - [Overview](Graph/Graph.md)
