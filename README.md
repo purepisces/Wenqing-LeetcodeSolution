@@ -32,6 +32,7 @@
 - **Linked List**
   - [Overview](Linked-List/Linked-List.md)
   - [Easy-206-Reverse-Linked-List](Linked-List/Easy-206-Reverse-Linked-List.md)
+  - [Easy-21-Merge-Two-Sorted-Lists](Linked-List/Easy-21-Merge-Two-Sorted-Lists.md)
   - [🧠🧠🌟🌟Medium-143-Reorder-List](Linked-List/Medium-143-Reorder-List.md)
   - [🧠🧠Medium-19-Remove-Nth-Node-From-End-of-List](Linked-List/Medium-19-Remove-Nth-Node-From-End-of-List.md)
   - [Easy-21-Merge-Two-Sorted-Lists](Linked-List/Easy-21-Merge-Two-Sorted-Lists.md)
