@@ -34,7 +34,7 @@ class Solution(object):
             first, second = tmp1, tmp2
 ```
 ___
-wrong version
+wrong version: The issue is don't know how to finally merge these two halfs, the other part is correct.
 ```python
 # Definition for singly-linked list.
 # class ListNode(object):
@@ -66,7 +66,7 @@ class Solution(object):
                 cur.next = prev
                 prev = cur
                 cur = tmp
-        return slow
+        return prev
         list1 = head
         list2 = reverse_list(tmp)
         dummy = ListNode()
