@@ -1,4 +1,5 @@
 # Wenqing's LeetcodeSolution
+  - [Useful Link](useful-link.md)
   - [Python_Syntax](python_syntax.md)
   - [Tech](tech.md)
   - [Hashset]
