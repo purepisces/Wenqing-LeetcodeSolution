@@ -1,6 +1,6 @@
 The dummy node is used in this problem to simplify edge cases, particularly when we need to remove the head of the list. Consider the example [1,2,3] and n = 3, which we need to move head, which is node1.
 
-Firstly, make right to move n steps, then make right to move length-n steps. And if left is from dummy, then when move l-n steps, it will at the front of the node which we want to remove. For example, consider length = 8, n =2, then firtly we right remove to the third node, then move 8-2 = 6 steps which move to the none node, can just draw it. Then if we move from the dummy node, then move 6 steps, we will reach the last 3 node.
+First, move the `right` pointer `n` steps forward. Then, move `right` another `length - n` steps. Starting `left` from the `dummy` node allows us to position it right before the node we want to remove after moving `length - n` steps. For example, if the length of the list is 8 and `n = 2`, we first move `right` 2 steps. Then, we move `right` an additional `8 - 2 = 6` steps until it reaches the end (`None`). Starting from the `dummy` node, moving `left` 6 steps will place it just before the node we want to remove, which is the 3rd-to-last node.
 
 ```python
 # Definition for singly-linked list.
