@@ -33,6 +33,8 @@
 - **Linked List**
   - [Overview](Linked-List/Linked-List.md)
   - [🧠🧠🧠🌟🌟🌟Medium-287-Find-the-Duplicate-Number](Linked-List/Medium-287-Find-the-Duplicate-Number.md)
+  - [🌟🌟🌟Medium-146-LRU-Cache](Linked-List/Medium-146-LRU-Cache.md)
+  - [🧠🧠🧠🌟🌟Hard-25-Reverse-Nodes-in-k-Group](Linked-List/Hard-25-Reverse-Nodes-in-k-Group.md)
   - [Easy-206-Reverse-Linked-List](Linked-List/Easy-206-Reverse-Linked-List.md)
   - [Easy-21-Merge-Two-Sorted-Lists](Linked-List/Easy-21-Merge-Two-Sorted-Lists.md)
   - [🧠🧠🌟🌟Medium-143-Reorder-List](Linked-List/Medium-143-Reorder-List.md)
@@ -41,7 +43,7 @@
   - [Medium-2-Add-Two-Numbers](Linked-List/Medium-2-Add-Two-Numbers.md)
   - [Easy-141-Linked-List-Cycle](Linked-List/Easy-141-Linked-List-Cycle.md)
   - [Hard-23-Merge-k-Sorted-Lists](Linked-List/Hard-23-Merge-k-Sorted-Lists.md)
-  - [🌟🌟🌟Medium-146-LRU-Cache](Linked-List/Medium-146-LRU-Cache.md)
+
  
 
 - **Tries**
