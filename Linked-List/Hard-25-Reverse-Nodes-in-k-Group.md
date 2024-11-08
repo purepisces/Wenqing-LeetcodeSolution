@@ -1,4 +1,5 @@
-
+Need to set `groupnext = kth.next`, if just using ` while cur != kth.next` will cause error `AttributeError: 'NoneType' object has no attribute 'next'
+    tmp = cur.next` but don't know why, since groupnext == kth.next.
 ```python
 # Definition for singly-linked list.
 # class ListNode(object):
