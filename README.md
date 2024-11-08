@@ -37,7 +37,7 @@
   - [🧠🧠Medium-19-Remove-Nth-Node-From-End-of-List](Linked-List/Medium-19-Remove-Nth-Node-From-End-of-List.md)
   - [🧠Medium-138-Copy-List-with-Random-Pointer](Linked-List/Medium-138-Copy-List-with-Random-Pointer.md)
   - [Medium-2-Add-Two-Numbers](Linked-List/Medium-2-Add-Two-Numbers.md)
-
+  - [Easy-141-Linked-List-Cycle](Linked-List/Easy-141-Linked-List-Cycle.md)
 - **Tries**
   - [Overview](Tries/Tries.md)
   - [🌟🌟Medium-208-Implement-Trie (Prefix Tree)](Tries/Medium-208-Implement-Trie-Prefix-Tree.md)
