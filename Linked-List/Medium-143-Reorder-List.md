@@ -1,4 +1,4 @@
-The dummy node is used in this problem to simplify edge cases, particularly when we need to remove the head of the list.
+The dummy node is used in this problem to simplify edge cases, particularly when we need to remove the head of the list. Consider the example [1,2,3] and n = 3, which we need to move node1.
 
 ```python
 # Definition for singly-linked list.
