@@ -41,6 +41,9 @@
   - [Medium-2-Add-Two-Numbers](Linked-List/Medium-2-Add-Two-Numbers.md)
   - [Easy-141-Linked-List-Cycle](Linked-List/Easy-141-Linked-List-Cycle.md)
   - [Hard-23-Merge-k-Sorted-Lists](Linked-List/Hard-23-Merge-k-Sorted-Lists.md)
+  - [🌟🌟🌟Medium-146-LRU-Cache](Linked-List/Medium-146-LRU-Cache.md)
+ 
+
 - **Tries**
   - [Overview](Tries/Tries.md)
   - [🌟🌟Medium-208-Implement-Trie (Prefix Tree)](Tries/Medium-208-Implement-Trie-Prefix-Tree.md)
