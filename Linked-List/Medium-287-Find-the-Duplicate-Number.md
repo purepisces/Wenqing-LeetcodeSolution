@@ -2,6 +2,16 @@
 
 https://github.com/youngyangyang04/leetcode-master
 
+<p align="center">
+<a href="https://www.programmercarl.com/xunlian/xunlianying.html" target="_blank">
+  <img src="../pics/训练营.png" width="1000"/>
+</a>
+<p align="center"><strong><a href="./qita/join.md">参与本项目</a>，贡献其他语言版本的代码，拥抱开源，让更多学习算法的小伙伴们受益！</strong></p>
+
+
+
+
+
 > 找到有没有环已经很不容易了，还要让我找到环的入口?
 
 
