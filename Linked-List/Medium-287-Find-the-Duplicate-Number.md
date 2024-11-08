@@ -1,3 +1,24 @@
+```python
+class Solution(object):
+    def findDuplicate(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: int
+        """
+        slow, fast = nums[0], nums[0]
+        while True:
+            slow = nums[slow]
+            fast = nums[nums[fast]]
+            if slow == fast:
+                break
+        slow2 = nums[0]
+        while True:
+            if slow2 == slow:
+                return slow
+            slow2 = nums[slow2]
+            slow = nums[slow]
+```
+
 参考代码随想录: https://programmercarl.com/0142.%E7%8E%AF%E5%BD%A2%E9%93%BE%E8%A1%A8II.html#%E6%80%9D%E8%B7%AF
 
 https://github.com/youngyangyang04/leetcode-master
