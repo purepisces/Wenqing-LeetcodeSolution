@@ -52,3 +52,37 @@ Why we are at n+1th node from the end of the list, which is in front of the nth 
 
 The reason that we are using dummy is that that time when we are removing length-n times, we could be at the n+1th node from the end of the list so it will make us achieve the goal to delete the nth node from the end of the list.
 
+___
+not good answer, but accepted
+
+```python
+# Definition for singly-linked list.
+# class ListNode(object):
+#     def __init__(self, val=0, next=None):
+#         self.val = val
+#         self.next = next
+class Solution(object):
+    def removeNthFromEnd(self, head, n):
+        """
+        :type head: Optional[ListNode]
+        :type n: int
+        :rtype: Optional[ListNode]
+        """
+        # find the last n
+        # means move l - n - 1 time to find
+        tmp = head
+        while tmp:
+            if n == 0:
+                break
+            tmp = tmp.next
+            n-=1
+        dummy = ListNode()
+        dummy.next = head
+        cur = dummy
+        while tmp:
+            cur = cur.next
+            tmp = tmp.next
+        cur.next = cur.next.next
+        return dummy.next
+```
+
