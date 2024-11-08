@@ -35,6 +35,7 @@
   - [Easy-21-Merge-Two-Sorted-Lists](Linked-List/Easy-21-Merge-Two-Sorted-Lists.md)
   - [🧠🧠🌟🌟Medium-143-Reorder-List](Linked-List/Medium-143-Reorder-List.md)
   - [🧠🧠Medium-19-Remove-Nth-Node-From-End-of-List](Linked-List/Medium-19-Remove-Nth-Node-From-End-of-List.md)
+  - [🧠Medium-138-Copy-List-with-Random-Pointer](Linked-List/Medium-138-Copy-List-with-Random-Pointer.md)
 
 - **Tries**
   - [Overview](Tries/Tries.md)
