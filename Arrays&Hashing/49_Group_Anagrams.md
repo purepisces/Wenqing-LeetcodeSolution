@@ -55,7 +55,7 @@ class Solution(object):
             count = [0]*26
             for c in str:
                 count[ord(c)-ord('a')] +=1
-            temp[count].append(str)
+            temp[tuple(count)].append(str)
         return temp.values()
 ```
 
