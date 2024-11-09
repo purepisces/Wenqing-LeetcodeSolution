@@ -14,8 +14,6 @@ class Solution(object):
         return rob2
 ```
 
-___
-
 My solution inspired by 746. Min Cost Climbing Stairs:
 ```python
 class Solution(object):
