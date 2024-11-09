@@ -1,3 +1,22 @@
+```python
+class Solution(object):
+    def productExceptSelf(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: List[int]
+        """
+        res = [1] * len(nums)
+        prefix = 1
+        for i in range(len(nums)):
+            res[i] = prefix
+            prefix *= nums[i]
+        postfix = 1
+        for i in range(len(nums)-1,-1,-1):
+            res[i]*=postfix  
+            postfix*=nums[i]
+        return res
+```
+** need to create a new array which is `res = [1] * len(nums)`, if directly modify on original array then will have problem.
 # Link:
 - [238_Product_of_Array_Except_Self](https://leetcode.com/problems/product-of-array-except-self/description/)
 
