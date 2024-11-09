@@ -7,11 +7,21 @@
   - [Divide and Conquer]
   - [Recursion]
   - [Bit Manipulation]
- 
-
-
 
 ## Leetcode Topic
+
+- **1-D Dynamic Programming**
+  - [Overview](1-D-Dynamic-Programming/1-D-Dynamic-Programming.md)
+  - [🧠🌟Easy-121-Best-Time-to-Buy-and-Sell-Stock](1-D-Dynamic-Programming/Easy-121-Best-Time-to-Buy-and-Sell-Stock.md)
+  - [🧠🌟Medium-213-House-Robber-II](1-D-Dynamic-Programming/Medium-213-House-Robber-II.md)
+  - [🧠🧠Medium-5-Longest-Palindromic-Substring](1-D-Dynamic-Programming/Medium-5-Longest-Palindromic-Substring.md)
+  - [🧠🌟Medium-322-Coin-Change](1-D-Dynamic-Programming/Medium-322-Coin-Change.md)
+  - [🌟Medium-91-Decode-Ways](1-D-Dynamic-Programming/Medium-91-Decode-Ways.md)
+  - [🧠🌟Medium-139-Word-Break](1-D-Dynamic-Programming/Medium-139-Word-Break.md)
+  - [🧠🌟Medium-152-Maximum-Product-Subarray](1-D-Dynamic-Programming/Medium-152-Maximum-Product-Subarray.md)
+  - [Easy-70-Climbing-Stairs](1-D-Dynamic-Programming/Easy-70-Climbing-Stairs.md)
+  - [🧠🌟Easy-746-Min-Cost-Climbing-Stairs](1-D-Dynamic-Programming/Easy-746-Min-Cost-Climbing-Stairs.md)
+    
 
 - **Sliding Window**
   - [Overview](Sliding-Window/Sliding-Window.md)
@@ -57,17 +67,6 @@
   - [🌟🌟Medium-49-Group-Anagrams](Arrays&Hashing/49_Group_Anagrams.md)
   - [Easy-217-Contains-Duplicate](Arrays&Hashing/217_Contains_Duplicate.md) 
 
-- **1-D Dynamic Programming**
-  - [Overview](1-D-Dynamic-Programming/1-D-Dynamic-Programming.md)
-  - [🧠🌟Easy-121-Best-Time-to-Buy-and-Sell-Stock](1-D-Dynamic-Programming/Easy-121-Best-Time-to-Buy-and-Sell-Stock.md)
-  - [🧠🌟Medium-213-House-Robber-II](1-D-Dynamic-Programming/Medium-213-House-Robber-II.md)
-  - [🧠🧠Medium-5-Longest-Palindromic-Substring](1-D-Dynamic-Programming/Medium-5-Longest-Palindromic-Substring.md)
-  - [🧠🌟Medium-322-Coin-Change](1-D-Dynamic-Programming/Medium-322-Coin-Change.md)
-  - [🌟Medium-91-Decode-Ways](1-D-Dynamic-Programming/Medium-91-Decode-Ways.md)
-  - [🧠🌟Medium-139-Word-Break](1-D-Dynamic-Programming/Medium-139-Word-Break.md)
-  - [🧠🌟Medium-152-Maximum-Product-Subarray](1-D-Dynamic-Programming/Medium-152-Maximum-Product-Subarray.md)
-  - [Easy-70-Climbing-Stairs](1-D-Dynamic-Programming/Easy-70-Climbing-Stairs.md)
-    
 - **Tries**
   - [Overview](Tries/Tries.md)
   - [🌟🌟Medium-208-Implement-Trie (Prefix Tree)](Tries/Medium-208-Implement-Trie-Prefix-Tree.md)
