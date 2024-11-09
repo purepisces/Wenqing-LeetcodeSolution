@@ -44,13 +44,6 @@
   - [Easy-141-Linked-List-Cycle](Linked-List/Easy-141-Linked-List-Cycle.md)
   - [Hard-23-Merge-k-Sorted-Lists](Linked-List/Hard-23-Merge-k-Sorted-Lists.md)
 
- 
-
-- **Tries**
-  - [Overview](Tries/Tries.md)
-  - [🌟🌟Medium-208-Implement-Trie (Prefix Tree)](Tries/Medium-208-Implement-Trie-Prefix-Tree.md)
-  - [🌟🌟Medium-211-Design-Add-and-Search-Words-Data-Structure](Tries/Medium-211-Design-Add-and-Search-Words-Data-Structure.md)
-    
 - **Arrays&Hashing**
   - [Overview](Arrays&Hashing.md)
   - [🧠Medium-271-Encode-And-Decode-Strings](Arrays&Hashing/271_Encode_And_Decode_Strings.md)
@@ -62,8 +55,13 @@
   - [Easy-1929-Concatenation-of-Array](Arrays&Hashing/1929_Concatenation_of_Array.md)
   - [🌟Easy-1-Two-Sum](Arrays&Hashing/1_Two_Sum.md)
   - [🌟🌟Medium-49-Group-Anagrams](Arrays&Hashing/49_Group_Anagrams.md)
-  - [Easy-217-Contains-Duplicate](Arrays&Hashing/217_Contains_Duplicate.md)
+  - [Easy-217-Contains-Duplicate](Arrays&Hashing/217_Contains_Duplicate.md) 
 
+- **Tries**
+  - [Overview](Tries/Tries.md)
+  - [🌟🌟Medium-208-Implement-Trie (Prefix Tree)](Tries/Medium-208-Implement-Trie-Prefix-Tree.md)
+  - [🌟🌟Medium-211-Design-Add-and-Search-Words-Data-Structure](Tries/Medium-211-Design-Add-and-Search-Words-Data-Structure.md)
+    
   
 - **Backtracking**
   - [Overview]()
