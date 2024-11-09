@@ -1,3 +1,24 @@
+```python
+class Solution(object):
+    def topKFrequent(self, nums, k):
+        """
+        :type nums: List[int]
+        :type k: int
+        :rtype: List[int]
+        """
+        freq = [[] for i in range(len(nums) + 1)]
+        temp = {}
+        for num in nums:
+            temp[num] = 1 + temp.get(num, 0)
+        for ele, fre in temp.items():
+            freq[fre].append(ele)
+        res = []
+        for i in range(len(freq)-1, -1, -1):
+            for ele in freq[i]:
+                res.append(ele)
+                if len(res) == k:
+                    return res
+```
 # Link:
 - [347_Top_K_Frequent_Elements](https://leetcode.com/problems/top-k-frequent-elements/description/)
 
