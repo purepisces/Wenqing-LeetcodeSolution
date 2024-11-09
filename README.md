@@ -12,6 +12,9 @@
 
 - **1-D Dynamic Programming**
   - [Overview](1-D-Dynamic-Programming/1-D-Dynamic-Programming.md)
+  - [🌟Easy-70-Climbing-Stairs](1-D-Dynamic-Programming/Easy-70-Climbing-Stairs.md)
+  - [🧠🌟Easy-746-Min-Cost-Climbing-Stairs](1-D-Dynamic-Programming/Easy-746-Min-Cost-Climbing-Stairs.md)
+  - [Medium-198-House-Robber](1-D-Dynamic-Programming/Medium-198-House-Robber.md)
   - [🧠🌟Easy-121-Best-Time-to-Buy-and-Sell-Stock](1-D-Dynamic-Programming/Easy-121-Best-Time-to-Buy-and-Sell-Stock.md)
   - [🧠🌟Medium-213-House-Robber-II](1-D-Dynamic-Programming/Medium-213-House-Robber-II.md)
   - [🧠🧠Medium-5-Longest-Palindromic-Substring](1-D-Dynamic-Programming/Medium-5-Longest-Palindromic-Substring.md)
@@ -19,8 +22,7 @@
   - [🌟Medium-91-Decode-Ways](1-D-Dynamic-Programming/Medium-91-Decode-Ways.md)
   - [🧠🌟Medium-139-Word-Break](1-D-Dynamic-Programming/Medium-139-Word-Break.md)
   - [🧠🌟Medium-152-Maximum-Product-Subarray](1-D-Dynamic-Programming/Medium-152-Maximum-Product-Subarray.md)
-  - [Easy-70-Climbing-Stairs](1-D-Dynamic-Programming/Easy-70-Climbing-Stairs.md)
-  - [🧠🌟Easy-746-Min-Cost-Climbing-Stairs](1-D-Dynamic-Programming/Easy-746-Min-Cost-Climbing-Stairs.md)
+ 
     
 
 - **Sliding Window**
