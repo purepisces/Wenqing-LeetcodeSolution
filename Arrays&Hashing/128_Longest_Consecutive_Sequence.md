@@ -1,3 +1,22 @@
+```python
+class Solution(object):
+    def longestConsecutive(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: int
+        """
+        numset = set(nums)
+        longest = 0
+        for n in nums:
+            # calculate just from the starting position
+            if n-1 not in numset:
+                length = 1
+                while n + length in numset:
+                    length+=1
+                longest = max(longest, length)
+        return longest
+```
+
 # Link:
 - [128_Longest_Consecutive_Sequence](https://leetcode.com/problems/longest-consecutive-sequence/description/)
 
@@ -53,4 +72,26 @@ class Solution(object):
                     length+=1
                 longest = max(longest, length)
         return longest
+```
+___
+my not good version, very slow but accept:
+```python
+class Solution(object):
+    def longestConsecutive(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: int
+        """
+        tmp = set()
+        res = 0
+        for num in nums:
+            tmp.add(num)
+        for num in nums:
+            if num -1 not in tmp:
+                length = 1
+                while (num + 1) in tmp:
+                    length+=1
+                    num+=1
+                res = max(res, length)
+        return res
 ```
