@@ -74,7 +74,7 @@ class Solution(object):
         return longest
 ```
 ___
-my not good version, very slow but accept:
+my not good version, very slow (maybe due to the internet?) but accepted:
 ```python
 class Solution(object):
     def longestConsecutive(self, nums):
