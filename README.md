@@ -36,6 +36,7 @@
 
 - **Two Pointers**
   - [Overview](Two-Pointers.md)
+  - [🧠🧠Medium-5-Longest-Palindromic-Substring](Two-Pointers/Medium-5-Longest-Palindromic-Substring.md)
   - [🌟🧠🧠Hard-42-Trapping-Rain-Water](Two-Pointers/42-Trapping-Rain-Water.md)
   - [🌟Medium-15-3Sum](Two-Pointers/15-3Sum.md)
   - [🌟Easy-125-Valid-Palindrome](Two-Pointers/125-Valid-Palindrome.md)
