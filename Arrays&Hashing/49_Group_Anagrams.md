@@ -43,7 +43,7 @@ The time complexity is $O(n*m)$ because we iterate over each of the $n$ strings,
 The space complexity is $O(n*m)$ because we store the count of characters (which takes $O(m)$ space for each string) for $n$ strings in the hash table.
 
 # Code
-```
+```python
 class Solution(object):
     def groupAnagrams(self, strs):
         """
