@@ -1,3 +1,4 @@
+在每个node点都需要算一下目前的self.res的值, 又因为每个node我们都会计算当前的高度,因此可以都放在这个depth funtion中计算.
 ```python
 # Definition for a binary tree node.
 # class TreeNode(object):
