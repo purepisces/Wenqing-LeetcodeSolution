@@ -10,6 +10,18 @@
 
 ## Leetcode Topic
 
+- **Tree**
+  - [Overview](Tree/Tree.md)
+  - [🧠🧠Medium-105-Construct-Binary-Tree-from-Preorder-and-Inorder-Traversal](Tree/Medium-105-Construct-Binary-Tree-from-Preorder-and-Inorder-Traversal.md)
+  - [🧠Medium-98-Validate-Binary-Search-Tree](Tree/Medium-98-Validate-Binary-Search-Tree.md)
+  - [🧠🧠Medium-230-Kth-Smallest-Element-in-a-BST](Tree/Medium-230-Kth-Smallest-Element-in-a-BST.md)
+  - [Medium-102-Binary-Tree-Level-Order-Traversal](Tree/Medium-102-Binary-Tree-Level-Order-Traversal.md)
+  - [Medium-199-Binary-Tree-Right-Side-View](Tree/Medium-199-Binary-Tree-Right-Side-View.md)
+  - [Medium-1448-Count-Good-Nodes-in-Binary-Tree](Tree/Medium-1448-Count-Good-Nodes-in-Binary-Tree.md)
+  - [Easy-226-Invert-Binary-Tree](Tree/Easy-226-Invert-Binary-Tree.md)
+
+    
+
 - **Stack**
   - [Overview](Stack/stack.md)
   - [Easy-20-Valid-Parentheses](Stack/Easy-20-Valid-Parentheses.md)
@@ -90,15 +102,6 @@
   - [🌟🌟Easy-703-Kth-Largest-Element-in-a-Stream](Heap-Priority-Queue/Easy-703-Kth-Largest-Element-in-a-Stream.md)
   - [🧠🧠🌟🌟Medium-621-Task-Scheduler](Heap-Priority-Queue/Medium-621-Task-Scheduler.md)
  
-- **Tree**
-  - [Overview](Tree/Tree.md)
-  - [🧠🧠Medium-105-Construct-Binary-Tree-from-Preorder-and-Inorder-Traversal](Tree/Medium-105-Construct-Binary-Tree-from-Preorder-and-Inorder-Traversal.md)
-  - [🧠Medium-98-Validate-Binary-Search-Tree](Tree/Medium-98-Validate-Binary-Search-Tree.md)
-  - [🧠🧠Medium-230-Kth-Smallest-Element-in-a-BST](Tree/Medium-230-Kth-Smallest-Element-in-a-BST.md)
-  - [Medium-102-Binary-Tree-Level-Order-Traversal](Tree/Medium-102-Binary-Tree-Level-Order-Traversal.md)
-  - [Medium-199-Binary-Tree-Right-Side-View](Tree/Medium-199-Binary-Tree-Right-Side-View.md)
-  - [Medium-1448-Count-Good-Nodes-in-Binary-Tree](Tree/Medium-1448-Count-Good-Nodes-in-Binary-Tree.md)
-    
 - **Graph**
   - [Overview](Graph/Graph.md)
   - [🌟🌟Medium-200-Number-of-Islands](Graph/Medium-200-Number-of-Islands.md)
