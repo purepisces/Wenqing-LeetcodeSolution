@@ -12,6 +12,7 @@
 
 - **Tree**
   - [Overview](Tree/Tree.md)
+  - [🧠🧠🌟🌟🌟Medium-1448-Count-Good-Nodes-in-Binary-Tree](Tree/Medium-1448-Count-Good-Nodes-in-Binary-Tree.md)
   - [🧠🌟🌟Easy-543-Diameter-of-Binary-Tree](Tree/Easy-543-Diameter-of-Binary-Tree.md)
   - [🧠🌟🌟Easy-110-Balanced-Binary-Tree](Tree/Easy-110-Balanced-Binary-Tree.md)
   - [🌟Easy-572-Subtree-of-Another-Tree](Tree/Easy-572-Subtree-of-Another-Tree.md)
@@ -21,7 +22,6 @@
   - [🧠Medium-98-Validate-Binary-Search-Tree](Tree/Medium-98-Validate-Binary-Search-Tree.md)
   - [🧠🧠Medium-230-Kth-Smallest-Element-in-a-BST](Tree/Medium-230-Kth-Smallest-Element-in-a-BST.md)
   - [Medium-102-Binary-Tree-Level-Order-Traversal](Tree/Medium-102-Binary-Tree-Level-Order-Traversal.md)
-  - [Medium-1448-Count-Good-Nodes-in-Binary-Tree](Tree/Medium-1448-Count-Good-Nodes-in-Binary-Tree.md)
   - [Easy-226-Invert-Binary-Tree](Tree/Easy-226-Invert-Binary-Tree.md)
   - [Easy-104-Maximum-Depth-of-Binary-Tree](Tree/Easy-104-Maximum-Depth-of-Binary-Tree.md)
   - [Easy-100-Same-Tree](Tree/Easy-100-Same-Tree.md)
