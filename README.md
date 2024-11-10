@@ -10,6 +10,10 @@
 
 ## Leetcode Topic
 
+- **Stack**
+  - [Overview](Stack/stack.md)
+  - [Easy-20-Valid-Parentheses](Stack/Easy-20-Valid-Parentheses.md)
+    
 - **1-D Dynamic Programming**
   - [Overview](1-D-Dynamic-Programming/1-D-Dynamic-Programming.md)
   - [🌟Easy-70-Climbing-Stairs](1-D-Dynamic-Programming/Easy-70-Climbing-Stairs.md)
@@ -24,7 +28,6 @@
   - [🧠🌟Medium-152-Maximum-Product-Subarray](1-D-Dynamic-Programming/Medium-152-Maximum-Product-Subarray.md)
   - [🧠🌟Medium-300-Longest-Increasing-Subsequence](1-D-Dynamic-Programming/Medium-300-Longest-Increasing-Subsequence.md)
  
-    
 
 - **Sliding Window**
   - [Overview](Sliding-Window/Sliding-Window.md)
