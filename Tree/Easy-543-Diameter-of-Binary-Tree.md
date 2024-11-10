@@ -19,7 +19,7 @@ class Solution(object):
             right = depth(root.right)
             self.res = max(self.res, 2+left+right)
             return 1 + max(left, right)
-        dfs(root)
+        depth(root)
         return self.res
 ```
 ___
