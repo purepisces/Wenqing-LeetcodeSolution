@@ -95,3 +95,22 @@ class Solution(object):
                 res = max(res, length)
         return res
 ```
+my wrong version:
+``python
+class Solution(object):
+    def longestConsecutive(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: int
+        """
+        res = 0
+        numsset = set(nums)
+        for num in nums:
+            if num -1 in numsset:
+                continue
+            length = 1
+            while num + length in numsset:
+                res = max(res, length)
+                length+=1
+        return res
+```
