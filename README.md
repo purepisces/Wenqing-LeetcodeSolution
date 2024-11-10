@@ -19,6 +19,7 @@
   - [Medium-199-Binary-Tree-Right-Side-View](Tree/Medium-199-Binary-Tree-Right-Side-View.md)
   - [Medium-1448-Count-Good-Nodes-in-Binary-Tree](Tree/Medium-1448-Count-Good-Nodes-in-Binary-Tree.md)
   - [Easy-226-Invert-Binary-Tree](Tree/Easy-226-Invert-Binary-Tree.md)
+  - [Easy-104-Maximum-Depth-of-Binary-Tree](Tree/Easy-104-Maximum-Depth-of-Binary-Tree.md)
 
     
 
