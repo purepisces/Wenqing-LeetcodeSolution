@@ -12,6 +12,7 @@
 
 - **Tree**
   - [Overview](Tree/Tree.md)
+  - [🧠🌟🌟Easy-543-Diameter-of-Binary-Tree](Tree/Easy-543-Diameter-of-Binary-Tree.md)
   - [🧠🧠Medium-105-Construct-Binary-Tree-from-Preorder-and-Inorder-Traversal](Tree/Medium-105-Construct-Binary-Tree-from-Preorder-and-Inorder-Traversal.md)
   - [🧠Medium-98-Validate-Binary-Search-Tree](Tree/Medium-98-Validate-Binary-Search-Tree.md)
   - [🧠🧠Medium-230-Kth-Smallest-Element-in-a-BST](Tree/Medium-230-Kth-Smallest-Element-in-a-BST.md)
