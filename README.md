@@ -22,6 +22,7 @@
   - [🌟Medium-91-Decode-Ways](1-D-Dynamic-Programming/Medium-91-Decode-Ways.md)
   - [🧠🌟Medium-139-Word-Break](1-D-Dynamic-Programming/Medium-139-Word-Break.md)
   - [🧠🌟Medium-152-Maximum-Product-Subarray](1-D-Dynamic-Programming/Medium-152-Maximum-Product-Subarray.md)
+  - [🧠🌟Medium-300-Longest-Increasing-Subsequence](1-D-Dynamic-Programming/Medium-300-Longest-Increasing-Subsequence.md)
  
     
 
