@@ -10,6 +10,12 @@
 
 ## Leetcode Topic
 
+- **Heap/Priority Queue**
+  - [Overview](Heap-Priority-Queue/Heap.md)
+  - [🌟🌟Easy-703-Kth-Largest-Element-in-a-Stream](Heap-Priority-Queue/Easy-703-Kth-Largest-Element-in-a-Stream.md)
+  - [🧠🧠🌟🌟Medium-621-Task-Scheduler](Heap-Priority-Queue/Medium-621-Task-Scheduler.md)
+ 
+
 - **Tree**
   - [Overview](Tree/Tree.md)
   - [🧠🧠🌟🌟🌟Medium-1448-Count-Good-Nodes-in-Binary-Tree](Tree/Medium-1448-Count-Good-Nodes-in-Binary-Tree.md)
@@ -103,11 +109,7 @@
   - [🌟🌟-78. Subsets](Backtracking/78-Subsets.md)
   - [Medium-39-Combination-Sum](Backtracking/Medium-39-Combination-Sum.md)
   - [🧠🧠Medium-46-Permutations](Backtracking/Medium-46-Permutations.md)
-- **Heap/Priority Queue**
-  - [Overview](Heap-Priority-Queue/Heap.md)
-  - [🌟🌟Easy-703-Kth-Largest-Element-in-a-Stream](Heap-Priority-Queue/Easy-703-Kth-Largest-Element-in-a-Stream.md)
-  - [🧠🧠🌟🌟Medium-621-Task-Scheduler](Heap-Priority-Queue/Medium-621-Task-Scheduler.md)
- 
+
 - **Graph**
   - [Overview](Graph/Graph.md)
   - [🌟🌟Medium-200-Number-of-Islands](Graph/Medium-200-Number-of-Islands.md)
