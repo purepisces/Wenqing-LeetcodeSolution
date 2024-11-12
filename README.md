@@ -15,6 +15,7 @@
   - [🌟🌟Easy-703-Kth-Largest-Element-in-a-Stream](Heap-Priority-Queue/Easy-703-Kth-Largest-Element-in-a-Stream.md)
   - [🧠🧠🌟🌟Medium-621-Task-Scheduler](Heap-Priority-Queue/Medium-621-Task-Scheduler.md)
   - [Medium-215-Kth-Largest-Element-in-an-Array](Heap-Priority-Queue/Medium-215-Kth-Largest-Element-in-an-Array.md)
+  - [Easy-1046-Last-Stone-Weight](Heap-Priority-Queue/Easy-1046-Last-Stone-Weight.md)
  
 
 - **Tree**
