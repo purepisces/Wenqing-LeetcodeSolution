@@ -10,6 +10,15 @@
 
 ## Leetcode Topic
 
+- **Graph**
+  - [Overview](Graph/Graph.md)
+  - [🌟🌟Medium-200-Number-of-Islands](Graph/Medium-200-Number-of-Islands.md)
+  - [Medium-695-Max-Area-of-Island](Graph/Medium-695-Max-Area-of-Island.md)
+  - [🧠Medium-133-Clone-Graph](Graph/Medium-133-Clone-Graph.md)
+  - [🧠Medium-261-Graph-Valid-Tree](Graph/Medium-261-Graph-Valid-Tree.md)
+  - [🌟Medium-417-Pacific-Atlantic-Water-Flow](Graph/Medium-417-Pacific-Atlantic-Water-Flow.md)
+  - [🧠🧠🌟🌟Medium-207-Course-Schedule](Graph/Medium-207-Course-Schedule.md)
+
 - **Heap/Priority Queue**
   - [Overview](Heap-Priority-Queue/Heap.md)
   - [🧠🌟🌟🌟Medium-355-Design-Twitter](Heap-Priority-Queue/Medium-355-Design-Twitter.md)
@@ -112,15 +121,6 @@
   - [🌟🌟-78. Subsets](Backtracking/78-Subsets.md)
   - [Medium-39-Combination-Sum](Backtracking/Medium-39-Combination-Sum.md)
   - [🧠🧠Medium-46-Permutations](Backtracking/Medium-46-Permutations.md)
-
-- **Graph**
-  - [Overview](Graph/Graph.md)
-  - [🌟🌟Medium-200-Number-of-Islands](Graph/Medium-200-Number-of-Islands.md)
-  - [Medium-695-Max-Area-of-Island](Graph/Medium-695-Max-Area-of-Island.md)
-  - [🧠Medium-133-Clone-Graph](Graph/Medium-133-Clone-Graph.md)
-  - [🧠Medium-261-Graph-Valid-Tree](Graph/Medium-261-Graph-Valid-Tree.md)
-  - [🌟Medium-417-Pacific-Atlantic-Water-Flow](Graph/Medium-417-Pacific-Atlantic-Water-Flow.md)
-  - [🧠🧠🌟🌟Medium-207-Course-Schedule](Graph/Medium-207-Course-Schedule.md)
   
 
 - **2-D Dynamic Programming**
