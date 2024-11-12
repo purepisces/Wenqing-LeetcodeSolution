@@ -7,6 +7,8 @@ Output: 8
 Explanation: A possible sequence is: A -> B -> idle -> A -> B -> idle -> A -> B.
 
 When time = 3, maxHeap = [], q = deque([[-2, 3], [-2, 4]]) since time 3 is idle time, so maxHeap is empty, it means we don't have item to choose. And the next time we can choose is for time = 4, and we add it back to maxheap. However, when time = 4, maxHeap = [-2], which means we have item to choose. 
+
+For ` if q and q[0][1] == time: heapq.heappush(maxHeap, q.popleft()[0])`, for example if when time = 2, maxheap = [-1,-1] and q = [-1,2], then time 3 we will have 3 items can choose, 2 from maxheap and 1 from q, all the items that can be selected should add back to maxheap. So maxheap become [-1,-1,-1].
 ```python
 class Solution(object):
     def leastInterval(self, tasks, n):
