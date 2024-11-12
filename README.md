@@ -17,6 +17,7 @@
   - [Medium-215-Kth-Largest-Element-in-an-Array](Heap-Priority-Queue/Medium-215-Kth-Largest-Element-in-an-Array.md)
   - [Easy-1046-Last-Stone-Weight](Heap-Priority-Queue/Easy-1046-Last-Stone-Weight.md)
   - [Medium-973-K-Closest-Points-to-Origin](Heap-Priority-Queue/Medium-973-K-Closest-Points-to-Origin.md)
+  - [Medium-355-Design-Twitter](Heap-Priority-Queue/Medium-355-Design-Twitter.md)
  
 
 - **Tree**
