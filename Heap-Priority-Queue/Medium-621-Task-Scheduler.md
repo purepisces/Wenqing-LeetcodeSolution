@@ -42,3 +42,42 @@ class Solution(object):
                 heapq.heappush(maxHeap, q.popleft()[0])
         return time
 ```
+```python
+[-3, -3]
+####
+('time', 1)
+('maxHeap', [-3, -3])
+('q', deque([]))
+deque([[-2, 3]])
+####
+('time', 2)
+('maxHeap', [-3])
+('q', deque([[-2, 3]]))
+deque([[-2, 3], [-2, 4]])
+####
+('time', 3)
+('maxHeap', [])
+('q', deque([[-2, 3], [-2, 4]]))
+####
+('time', 4)
+('maxHeap', [-2])
+('q', deque([[-2, 4]]))
+deque([[-2, 4], [-1, 6]])
+####
+('time', 5)
+('maxHeap', [-2])
+('q', deque([[-1, 6]]))
+deque([[-1, 6], [-1, 7]])
+####
+('time', 6)
+('maxHeap', [])
+('q', deque([[-1, 6], [-1, 7]]))
+####
+('time', 7)
+('maxHeap', [-1])
+('q', deque([[-1, 7]]))
+####
+('time', 8)
+('maxHeap', [-1])
+('q', deque([]))
+```
