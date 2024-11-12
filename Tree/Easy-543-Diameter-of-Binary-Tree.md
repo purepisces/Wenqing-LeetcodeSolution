@@ -1,4 +1,6 @@
 在每个node点都需要算一下目前的self.res的值, 又因为每个node我们都会计算当前的高度,因此可以都放在这个depth funtion中计算.
+
+when node is None, then height is -1, when one node, then height is 0. since we need to let when it is just 3 nodes, root, root.left root.right, we need it to be 2+left+right = 2+0+0 = 0, and for a single root, we need 2+left +right = 2-1-1 = 0.
 ```python
 # Definition for a binary tree node.
 # class TreeNode(object):
