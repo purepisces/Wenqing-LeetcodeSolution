@@ -1,13 +1,15 @@
-In each time, the lenghth of maxheap should represent the number of tasks it can choose, and each element of maxheap represents how many numbers it left for this certain tasks. From the stdout, you can see when time = 1, maxheap = [-3,-3], it means we have 2 tasks we can choose, and each one has 3.
+For the example 
 
-When time = 4 it is [], since it is idle time. And when time = 5, it is [-2], since we can just choose one task, and it has 2 left.
+Input: tasks = ["A","A","A","B","B","B"], n = 2
 
-Example
-```
-Task = ["A","A","A", "B","B","B"]
-n = 3
-Explanation: A possible sequence is: A -> B -> idle -> idle -> A -> B -> idle -> idle -> A -> B.
-```
+Output: 8
+
+Explanation: A possible sequence is: A -> B -> idle -> A -> B -> idle -> A -> B.
+
+When time = 3, maxHeap = [], q = deque([[-2, 3], [-2, 4]]) since time 3 is idle time, so maxHeap is empty, it means we don't have item to choose. And the next time we can choose is for time = 4, and we add it back to maxheap. However, when time = 4, maxHeap = [-2], which means we have item to choose. 
+
+
+
 ```python
 class Solution(object):
     def leastInterval(self, tasks, n):
@@ -21,70 +23,22 @@ class Solution(object):
         heapq.heapify(maxHeap)
 
         time = 0
-        q = deque()  
+        q = deque()  # pairs of [-cnt, idleTime]
+        print(maxHeap)
         while maxHeap or q:
-            print("1 is", maxHeap)
             time += 1
+            print("####")
+            print("time",time)
+            print("maxHeap", maxHeap)
+            print("q", q)
             if not maxHeap:
                 time = q[0][1]
             else:
                 cnt = 1 + heapq.heappop(maxHeap)
                 if cnt:
                     q.append([cnt, time + n])
-            print("2 is time",time)
-            print("3 is q", q)
+                    print(q)
             if q and q[0][1] == time:
                 heapq.heappush(maxHeap, q.popleft()[0])
-        print(count)
         return time
 ```
-output
-```
-('1 is', [-3, -3])
-('2 is time', 1)
-('3 is q', deque([[-2, 4]]))
-('1 is', [-3])
-('2 is time', 2)
-('3 is q', deque([[-2, 4], [-2, 5]]))
-('1 is', [])
-('2 is time', 4)
-('3 is q', deque([[-2, 4], [-2, 5]]))
-('1 is', [-2])
-('2 is time', 5)
-('3 is q', deque([[-2, 5], [-1, 8]]))
-('1 is', [-2])
-('2 is time', 6)
-('3 is q', deque([[-1, 8], [-1, 9]]))
-('1 is', [])
-('2 is time', 8)
-('3 is q', deque([[-1, 8], [-1, 9]]))
-('1 is', [-1])
-('2 is time', 9)
-('3 is q', deque([[-1, 9]]))
-('1 is', [-1])
-('2 is time', 10)
-('3 is q', deque([]))
-```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        
