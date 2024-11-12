@@ -1,6 +1,20 @@
 ```python
 for i in range(len(freq)-1,-1,-1):
 ```
+___
+```python
+points = [[1,3],[-2,2]]
+for x, y in points:
+    print("x is", x)
+    print("y is", y)
+```
+```css
+# printing result
+x is 1
+y is 3
+x is -2
+y is 2
+```
 -----------------------
 ```python
 count = [0] * 8
