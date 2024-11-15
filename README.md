@@ -10,6 +10,12 @@
 
 ## Leetcode Topic
 
+
+- **Stack**
+  - [Overview](Stack/stack.md)
+  - [Easy-20-Valid-Parentheses](Stack/Easy-20-Valid-Parentheses.md)
+  - [🧠🌟Medium-155-Min-Stack](Stack/Medium-155-Min-Stack.md)
+
 - **Graph**
   - [Overview](Graph/Graph.md)
   - [🌟🌟Medium-200-Number-of-Islands](Graph/Medium-200-Number-of-Islands.md)
@@ -43,12 +49,6 @@
   - [Easy-226-Invert-Binary-Tree](Tree/Easy-226-Invert-Binary-Tree.md)
   - [Easy-104-Maximum-Depth-of-Binary-Tree](Tree/Easy-104-Maximum-Depth-of-Binary-Tree.md)
   - [Easy-100-Same-Tree](Tree/Easy-100-Same-Tree.md)
-
-    
-
-- **Stack**
-  - [Overview](Stack/stack.md)
-  - [Easy-20-Valid-Parentheses](Stack/Easy-20-Valid-Parentheses.md)
     
 - **1-D Dynamic Programming**
   - [Overview](1-D-Dynamic-Programming/1-D-Dynamic-Programming.md)
