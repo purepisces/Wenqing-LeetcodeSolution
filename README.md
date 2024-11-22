@@ -10,6 +10,14 @@
 
 ## Leetcode Topic
 
+- **Backtracking**
+  - [Overview](Backtracking/backtracking.md)
+  - [🌟🌟-78. Subsets](Backtracking/78-Subsets.md)
+  - [🌟🌟Medium-78-Subsets](Backtracking/Medium-78-Subsets.md)
+
+  - [Medium-39-Combination-Sum](Backtracking/Medium-39-Combination-Sum.md)
+  - [🧠🧠Medium-46-Permutations](Backtracking/Medium-46-Permutations.md)
+
 
 - **Stack**
   - [Overview](Stack/stack.md)
@@ -116,13 +124,6 @@
   - [🌟🌟Medium-208-Implement-Trie (Prefix Tree)](Tries/Medium-208-Implement-Trie-Prefix-Tree.md)
   - [🌟🌟Medium-211-Design-Add-and-Search-Words-Data-Structure](Tries/Medium-211-Design-Add-and-Search-Words-Data-Structure.md)
     
-  
-- **Backtracking**
-  - [Overview]()
-  - [🌟🌟-78. Subsets](Backtracking/78-Subsets.md)
-  - [Medium-39-Combination-Sum](Backtracking/Medium-39-Combination-Sum.md)
-  - [🧠🧠Medium-46-Permutations](Backtracking/Medium-46-Permutations.md)
-  
 
 - **2-D Dynamic Programming**
   - [Overview](2-D-Dynamic-Programming/2-D-Dynamic-Programming.md)
