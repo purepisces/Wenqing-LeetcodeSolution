@@ -1,5 +1,25 @@
 We need to use res.append(subset[:]), not res.append(subset) since when subset is appended to res, the reference to the subset list is stored, not its current value or a copy of it.
 
+```python
+class Solution(object):
+    def subsets(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: List[List[int]]
+        """
+        res = []
+        subset = []
+        def dfs(i):
+            if i == len(nums):
+                res.append(subset[:])
+                return
+            subset.append(nums[i])
+            dfs(i+1)
+            subset.pop()
+            dfs(i+1)
+        dfs(0)
+        return res
+```
 ```python3
 class Solution(object):
     def subsets(self, nums):
