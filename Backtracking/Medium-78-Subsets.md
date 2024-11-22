@@ -1,4 +1,4 @@
-We need to use res.append(subset[:]), not res.append(subset) since when subset is appended to res, the reference to the subset list is stored, not its current value or a copy of it.
+We need to use `res.append(subset[:])`, not `res.append(subset)` since when subset is appended to res, the reference to the subset list is stored, not its current value or a copy of it.
 
 ```python
 class Solution(object):
