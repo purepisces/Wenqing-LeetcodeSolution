@@ -1,6 +1,11 @@
 Love this question!
-For time limit issue `count = defaultdict(int, sum(map(Counter, board), Counter()))`
 
+For time limit issue:
+```python
+count = defaultdict(int, sum(map(Counter, board), Counter()))
+    if count[word[0]] > count[word[-1]]:
+        word = word[::-1]
+```
 ```python
 class Solution(object):
     def exist(self, board, word):
