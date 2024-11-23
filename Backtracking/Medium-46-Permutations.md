@@ -29,11 +29,6 @@ list1.extend(list2)
 print(list1)
 # list 1: [[4, 5, 6], [7], [8]]
 ```
-
-___
-wrong version:    
-`if len(nums) == 1: return [nums] `, should make a deep copy of nums, which should be `return [nums[:]]`, otherwise it will become a reference which cause problem.
-
 My another correct version:
 ```python
 class Solution(object):
@@ -54,3 +49,7 @@ class Solution(object):
             nums.insert(0, temp)
         return res
 ```
+___
+wrong version:    
+`if len(nums) == 1: return [nums] `, should make a deep copy of nums, which should be `return [nums[:]]`, otherwise it will become a reference which cause problem.
+
