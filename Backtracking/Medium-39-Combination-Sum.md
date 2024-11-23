@@ -25,6 +25,8 @@ class Solution(object):
         return res
 ```
 
+Space Complexity: $O(\text{target} / \text{min(candidates)})$ for the recursion stack.
+
 ___
 My wrong implementation
 
