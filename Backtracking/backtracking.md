@@ -1,0 +1,1 @@
+We use `res.append(subset[:])` instead of `res.append(subset)` because appending `subset` directly to `res` only stores a reference to the same list object, not a snapshot of its current state. Using `subset[:]` ensures that a copy of the list is appended, preserving its contents at that specific moment.
