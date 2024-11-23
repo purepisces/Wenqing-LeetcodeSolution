@@ -21,3 +21,4 @@ class Solution(object):
         dfs(0)
         return res
 ```
+Don't forget to call dfs(0).
