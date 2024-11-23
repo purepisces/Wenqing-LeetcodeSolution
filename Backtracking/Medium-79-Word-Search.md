@@ -1,4 +1,6 @@
 Love this question!
+For time limit issue `count = defaultdict(int, sum(map(Counter, board), Counter()))`
+
 ```python
 class Solution(object):
     def exist(self, board, word):
