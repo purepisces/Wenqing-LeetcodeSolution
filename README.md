@@ -12,9 +12,7 @@
 
 - **Backtracking**
   - [Overview](Backtracking/backtracking.md)
-  - [🌟🌟-78. Subsets](Backtracking/78-Subsets.md)
   - [🌟🌟Medium-78-Subsets](Backtracking/Medium-78-Subsets.md)
-
   - [Medium-39-Combination-Sum](Backtracking/Medium-39-Combination-Sum.md)
   - [🧠🧠Medium-46-Permutations](Backtracking/Medium-46-Permutations.md)
 
