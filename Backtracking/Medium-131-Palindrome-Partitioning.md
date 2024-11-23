@@ -25,3 +25,29 @@ class Solution(object):
             l, r = l + 1, r - 1
         return True
 ```
+___
+My wrong stuck version
+```python
+class Solution(object):
+    def partition(self, s):
+        """
+        :type s: str
+        :rtype: List[List[str]]
+        """
+        res = []
+        subset = []
+        def dfs(i):
+            if i == len(s):
+                res.append(subset[:])
+            if isPalindrome(s[i]):
+                subset.append(s[i])
+        def isPalindrome(s):
+            l = 0
+            r = len(s) - 1
+            while l <= r:
+                if s[l] != s[r]:
+                    return False
+                l+=1
+                r-=1
+            return True
+```
