@@ -1,3 +1,8 @@
+In https://leetcode.com/problems/word-search/
+```python
+count = defaultdict(int, sum(map(Counter, board), Counter()))
+```
+___
 ```python
 for i in range(len(freq)-1,-1,-1):
 ```
