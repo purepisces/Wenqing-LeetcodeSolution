@@ -33,3 +33,24 @@ print(list1)
 ___
 wrong version:    
 `if len(nums) == 1: return [nums] `, should make a deep copy of nums, which should be `return [nums[:]]`, otherwise it will become a reference which cause problem.
+
+My another correct version:
+```python
+class Solution(object):
+    def permute(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: List[List[int]]
+        """
+        if len(nums) == 1:
+            return [nums[:]]
+        res = []
+        for i in range(len(nums)):
+            temp = nums.pop()
+            permutations = self.permute(nums)
+            for per in permutations:
+                per.append(temp)
+                res.append(per)
+            nums.insert(0, temp)
+        return res
+```
