@@ -17,7 +17,7 @@
   - [🌟🌟Medium-39-Combination-Sum](Backtracking/Medium-39-Combination-Sum.md)
   - [🧠🧠Medium-46-Permutations](Backtracking/Medium-46-Permutations.md)
   - [Medium-78-Subsets](Backtracking/Medium-78-Subsets.md)
-  - [Medium-131-Palindrome-Partitioning](Backtracking/Medium-131-Palindrome-Partitioning.md)
+  - [🧠🌟Medium-131-Palindrome-Partitioning](Backtracking/Medium-131-Palindrome-Partitioning.md)
   - [Medium-40-Combination-Sum-II](Backtracking/Medium-40-Combination-Sum-II.md)
 
 
