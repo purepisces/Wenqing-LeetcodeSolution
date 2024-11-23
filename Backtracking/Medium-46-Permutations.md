@@ -1,3 +1,4 @@
+
 ```python
 class Solution(object):
     def permute(self, nums):
@@ -20,3 +21,15 @@ class Solution(object):
             nums.append(n)
         return res
 ```
+
+```python
+list1 = []
+list2 = [[4, 5, 6],[7],[8]]
+list1.extend(list2)
+print(list1)
+# list 1: [[4, 5, 6], [7], [8]]
+```
+
+___
+wrong version:    
+`if len(nums) == 1: return [nums] `, should make a deep copy of nums, which should be `return [nums[:]]`, otherwise it will become a reference which cause problem.
