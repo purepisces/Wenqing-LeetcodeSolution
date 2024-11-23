@@ -28,7 +28,7 @@ Time Complexity: $O(2^{\frac{\text{target}}{\text{min(candidates)}}})$
 
 Space Complexity: $O(\text{target} / \text{min(candidates)})$ for the recursion stack.
 
-Because we can return when not i >= len(candidates), consider the example subset [2,2,3] satisfies the condition and it can directly append to the res array.
+For `if val == target :`, we directly return without checking with i, since we can return when not i >= len(candidates), consider the example subset [2,2,3] satisfies the condition and it can directly append to the res array.
 ```
 Input: candidates = [2,3,6,7], target = 7
 Output: [[2,2,3],[7]]
