@@ -24,6 +24,7 @@ class Solution(object):
         dfs(0,0)
         return res
 ```
+Time Complexity: $O(2^{\frac{\text{target}}{\text{min(candidates)}}})$
 
 Space Complexity: $O(\text{target} / \text{min(candidates)})$ for the recursion stack.
 
