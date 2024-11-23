@@ -13,7 +13,7 @@
 - **Backtracking**
   - [Overview](Backtracking/backtracking.md)
   - [❤️🧠🌟🌟🌟Medium-79-Word-Search](Backtracking/Medium-79-Word-Search.md)
-  - [🧠🧠🌟Medium-131-Palindrome-Partitioning](Backtracking/Medium-131-Palindrome-Partitioning.md)
+  - [🧠🧠🧠🌟Medium-131-Palindrome-Partitioning](Backtracking/Medium-131-Palindrome-Partitioning.md)
   - [🌟🌟🌟Medium-90-Subsets-II](Backtracking/Medium-90-Subsets-II.md)
   - [🌟🌟Medium-39-Combination-Sum](Backtracking/Medium-39-Combination-Sum.md)
   - [🧠🧠Medium-46-Permutations](Backtracking/Medium-46-Permutations.md)
