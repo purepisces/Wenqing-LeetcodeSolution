@@ -1,3 +1,4 @@
+dfs return the copied node
 ```python
 """
 # Definition for a Node.
@@ -29,6 +30,8 @@ class Solution(object):
 ```
 ___
 My bad solution:
+
+I should make dfs to return the copied node.
 ```python
 """
 # Definition for a Node.
