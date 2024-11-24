@@ -68,3 +68,32 @@ class Solution(object):
 
         return islands
 ```
+___
+My bad implementation, but accepted:
+
+I don't need to return True or False, instead, I can just add a check that `if grid[r][c] == "1" and (r, c) not in visit:`
+```python
+class Solution(object):
+    def numIslands(self, grid):
+        """
+        :type grid: List[List[str]]
+        :rtype: int
+        """
+        res = 0
+        row = len(grid)
+        col = len(grid[0])
+        visit = set()
+        def dfs(r,c):
+            if r not in range(row) or c not in range(col) or (r,c) in visit or grid[r][c] == "0":
+                return False
+            visit.add((r,c))
+            directions = [[0,-1],[0,1],[-1,0],[1,0]]
+            for dr, dc in directions:
+                dfs(r+dr, c+dc)
+            return True
+        for r in range(row):
+            for c in range(col):
+                if dfs(r,c):
+                    res+=1
+        return res
+```
