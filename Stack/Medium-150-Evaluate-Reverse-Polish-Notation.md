@@ -10,8 +10,8 @@ class Solution(object):
             if token == "+":
                 stack.append(stack.pop() + stack.pop())
             elif token == "-":
-                a = int(stack.pop())
-                b = int(stack.pop())
+                a = stack.pop()
+                b = stack.pop()
                 stack.append(b - a)
             elif token == "*":
                 stack.append(stack.pop() * stack.pop())
