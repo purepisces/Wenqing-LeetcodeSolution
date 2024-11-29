@@ -12,7 +12,7 @@
 
 - **Binary Search**
   - [Overview](Binary-Search/Binary-Search.md)
-  - [Medium-286-Walls-and-Gates](Binary-Search/Medium-286-Walls-and-Gates.md)
+  - [🌟🌟🌟Easy-704-Binary-Search](Binary-Search/Easy-704-Binary-Search.md)
 
 
 - **Graph**
