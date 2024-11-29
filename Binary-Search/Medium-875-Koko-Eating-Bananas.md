@@ -1,3 +1,5 @@
+need to store a  res = max(piles) and update it every time when time <= h
+
 ```python
 class Solution(object):
     def minEatingSpeed(self, piles, h):
@@ -25,6 +27,8 @@ class Solution(object):
 ```
 ___
 My wrong implementation, can't pass piles = [312884470] h = 312884469 expected output: 2 my wrong output is 1
+
+I need to store a  res = max(piles) and update it every time when time <= h
 ```python
 class Solution(object):
     def minEatingSpeed(self, piles, h):
