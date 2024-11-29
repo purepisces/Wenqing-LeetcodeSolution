@@ -10,6 +10,10 @@
 
 ## Leetcode Topic
 
+- **Binary Search**
+  - [Overview](Binary-Search/Binary-Search.md)
+  - [Medium-286-Walls-and-Gates](Binary-Search/Medium-286-Walls-and-Gates.md)
+
 
 - **Graph**
   - [Overview](Graph/Graph.md)
