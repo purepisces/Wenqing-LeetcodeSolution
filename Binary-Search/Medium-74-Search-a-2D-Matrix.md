@@ -1,3 +1,5 @@
+First find the row, then find the column.
+
 ```python
 class Solution(object):
     def searchMatrix(self, matrix, target):
