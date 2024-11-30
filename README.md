@@ -10,6 +10,13 @@
 
 ## Leetcode Topic
 
+- **Stack**
+  - [Overview](Stack/stack.md)
+  - [❤️🧠🧠🌟🌟🌟Medium-22-Generate-Parentheses](Stack/Medium-22-Generate-Parentheses.md)
+  - [Easy-20-Valid-Parentheses](Stack/Easy-20-Valid-Parentheses.md)
+  - [🧠🌟Medium-155-Min-Stack](Stack/Medium-155-Min-Stack.md)
+  - [🧠Medium-150-Evaluate-Reverse-Polish-Notation](Stack/Medium-150-Evaluate-Reverse-Polish-Notation.md)
+
 - **Binary Search**
   - [Overview](Binary-Search/Binary-Search.md)
   - [🌟🌟🌟Easy-704-Binary-Search](Binary-Search/Easy-704-Binary-Search.md)
@@ -39,14 +46,6 @@
   - [🧠🧠Medium-46-Permutations](Backtracking/Medium-46-Permutations.md)
   - [Medium-78-Subsets](Backtracking/Medium-78-Subsets.md)
   - [Medium-40-Combination-Sum-II](Backtracking/Medium-40-Combination-Sum-II.md)
-
-
-- **Stack**
-  - [Overview](Stack/stack.md)
-  - [Easy-20-Valid-Parentheses](Stack/Easy-20-Valid-Parentheses.md)
-  - [🧠🌟Medium-155-Min-Stack](Stack/Medium-155-Min-Stack.md)
-  - [🧠Medium-150-Evaluate-Reverse-Polish-Notation](Stack/Medium-150-Evaluate-Reverse-Polish-Notation.md)
-
 
 - **Heap/Priority Queue**
   - [Overview](Heap-Priority-Queue/Heap.md)
