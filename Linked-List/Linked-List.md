@@ -1,3 +1,25 @@
+Just memorize it. 287. Find the Duplicate Number
+https://leetcode.com/problems/find-the-duplicate-number/description/
+```python
+class Solution(object):
+    def findDuplicate(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: int
+        """
+        slow, fast = nums[0], nums[0]
+        while True:
+            slow = nums[slow]
+            fast = nums[nums[fast]]
+            if slow == fast:
+                break
+        slow2 = nums[0]
+        while True:
+            if slow2 == slow:
+                return slow
+            slow2 = nums[slow2]
+            slow = nums[slow]
+```
 ___
 Set dummy node, e.g.: https://leetcode.com/problems/merge-two-sorted-lists/description/
 ___
