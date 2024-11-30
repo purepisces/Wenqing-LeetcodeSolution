@@ -10,6 +10,20 @@
 
 ## Leetcode Topic
 
+- **Linked List**
+  - [Overview](Linked-List/Linked-List.md)
+  - [🧠🧠🧠🌟🌟🌟Medium-287-Find-the-Duplicate-Number](Linked-List/Medium-287-Find-the-Duplicate-Number.md)
+  - [🧠🧠Medium-19-Remove-Nth-Node-From-End-of-List](Linked-List/Medium-19-Remove-Nth-Node-From-End-of-List.md)
+  - [🧠Medium-138-Copy-List-with-Random-Pointer](Linked-List/Medium-138-Copy-List-with-Random-Pointer.md)
+  - [🧠🧠🌟🌟Medium-143-Reorder-List](Linked-List/Medium-143-Reorder-List.md)
+  - [🧠🧠🧠🌟🌟Hard-25-Reverse-Nodes-in-k-Group](Linked-List/Hard-25-Reverse-Nodes-in-k-Group.md)
+  - [🌟🌟🌟Medium-146-LRU-Cache](Linked-List/Medium-146-LRU-Cache.md)
+  - [Easy-206-Reverse-Linked-List](Linked-List/Easy-206-Reverse-Linked-List.md)
+  - [Easy-21-Merge-Two-Sorted-Lists](Linked-List/Easy-21-Merge-Two-Sorted-Lists.md)
+  - [Medium-2-Add-Two-Numbers](Linked-List/Medium-2-Add-Two-Numbers.md)
+  - [Easy-141-Linked-List-Cycle](Linked-List/Easy-141-Linked-List-Cycle.md)
+  - [Hard-23-Merge-k-Sorted-Lists](Linked-List/Hard-23-Merge-k-Sorted-Lists.md)
+
 - **Stack**
   - [Overview](Stack/stack.md)
   - [❤️❤️❤️🧠🧠🌟🌟🌟Medium-22-Generate-Parentheses](Stack/Medium-22-Generate-Parentheses.md)
@@ -107,20 +121,6 @@
   - [Medium-167-Two-Sum-II-Input-Array-Is-Sorted](Two-Pointers/167-Two-Sum-II-Input-Array-Is-Sorted.md)
   - [Medium-11-Container-With-Most-Water](Two-Pointers/11-Container-With-Most-Water.md)
  
-- **Linked List**
-  - [Overview](Linked-List/Linked-List.md)
-  - [🧠🧠Medium-19-Remove-Nth-Node-From-End-of-List](Linked-List/Medium-19-Remove-Nth-Node-From-End-of-List.md)
-  - [🧠🧠🌟🌟Medium-143-Reorder-List](Linked-List/Medium-143-Reorder-List.md)
-  - [🧠🧠🧠🌟🌟Hard-25-Reverse-Nodes-in-k-Group](Linked-List/Hard-25-Reverse-Nodes-in-k-Group.md)
-  - [🧠🧠🧠🌟🌟🌟Medium-287-Find-the-Duplicate-Number](Linked-List/Medium-287-Find-the-Duplicate-Number.md)
-  - [🌟🌟🌟Medium-146-LRU-Cache](Linked-List/Medium-146-LRU-Cache.md)
-  - [Easy-206-Reverse-Linked-List](Linked-List/Easy-206-Reverse-Linked-List.md)
-  - [Easy-21-Merge-Two-Sorted-Lists](Linked-List/Easy-21-Merge-Two-Sorted-Lists.md)
-  - [🧠Medium-138-Copy-List-with-Random-Pointer](Linked-List/Medium-138-Copy-List-with-Random-Pointer.md)
-  - [Medium-2-Add-Two-Numbers](Linked-List/Medium-2-Add-Two-Numbers.md)
-  - [Easy-141-Linked-List-Cycle](Linked-List/Easy-141-Linked-List-Cycle.md)
-  - [Hard-23-Merge-k-Sorted-Lists](Linked-List/Hard-23-Merge-k-Sorted-Lists.md)
-
 - **Arrays&Hashing**
   - [Overview](Arrays&Hashing.md)
   - [🧠Medium-271-Encode-And-Decode-Strings](Arrays&Hashing/271_Encode_And_Decode_Strings.md)
