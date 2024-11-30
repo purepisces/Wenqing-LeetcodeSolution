@@ -1,4 +1,4 @@
-**Use `slow, fast = head, head.next`** not `slow, fast = head, head` for better division in first half and second half for even number.
+**Use `slow, fast = head, head.next`** not `slow, fast = head, head` for better division in first half and second half for even number. Can see my solution below which demonstrate the problem.
 
 ```python
 # Definition for singly-linked list.
