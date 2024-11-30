@@ -10,6 +10,16 @@
 
 ## Leetcode Topic
 
+- **Graph**
+  - [Overview](Graph/Graph.md)
+  - [❤️🧠🌟🌟🌟Medium-286-Walls-and-Gates](Graph/Medium-286-Walls-and-Gates.md)
+  - [🌟🌟🌟Medium-695-Max-Area-of-Island](Graph/Medium-695-Max-Area-of-Island.md)
+  - [🌟🌟Medium-200-Number-of-Islands](Graph/Medium-200-Number-of-Islands.md)
+  - [🧠🌟Medium-133-Clone-Graph](Graph/Medium-133-Clone-Graph.md)
+  - [🧠Medium-261-Graph-Valid-Tree](Graph/Medium-261-Graph-Valid-Tree.md)
+  - [🌟Medium-417-Pacific-Atlantic-Water-Flow](Graph/Medium-417-Pacific-Atlantic-Water-Flow.md)
+  - [🧠🧠🌟🌟Medium-207-Course-Schedule](Graph/Medium-207-Course-Schedule.md)
+
 - **Linked List**
   - [Overview](Linked-List/Linked-List.md)
   - [🧠🧠🧠🌟🌟🌟Medium-287-Find-the-Duplicate-Number](Linked-List/Medium-287-Find-the-Duplicate-Number.md)
@@ -41,17 +51,6 @@
   - [🧠🧠🧠🤷Medium-33-Search-in-Rotated-Sorted-Array](Binary-Search/Medium-33-Search-in-Rotated-Sorted-Array.md)
   - [🤷Medium-981-Time-Based-Key-Value-Store](Binary-Search/Medium-981-Time-Based-Key-Value-Store.md)
   - [Medium-74-Search-a-2D-Matrix](Binary-Search/Medium-74-Search-a-2D-Matrix.md)
-
-
-- **Graph**
-  - [Overview](Graph/Graph.md)
-  - [❤️🧠🌟🌟🌟Medium-286-Walls-and-Gates](Graph/Medium-286-Walls-and-Gates.md)
-  - [🌟🌟🌟Medium-695-Max-Area-of-Island](Graph/Medium-695-Max-Area-of-Island.md)
-  - [🌟🌟Medium-200-Number-of-Islands](Graph/Medium-200-Number-of-Islands.md)
-  - [🧠🌟Medium-133-Clone-Graph](Graph/Medium-133-Clone-Graph.md)
-  - [🧠Medium-261-Graph-Valid-Tree](Graph/Medium-261-Graph-Valid-Tree.md)
-  - [🌟Medium-417-Pacific-Atlantic-Water-Flow](Graph/Medium-417-Pacific-Atlantic-Water-Flow.md)
-  - [🧠🧠🌟🌟Medium-207-Course-Schedule](Graph/Medium-207-Course-Schedule.md)
 
 - **Backtracking**
   - [Overview](Backtracking/backtracking.md)
