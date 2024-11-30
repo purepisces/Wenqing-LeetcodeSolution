@@ -1,3 +1,5 @@
+Finally, **`return dummy.next`.**
+
 The dummy node is used in this problem to simplify edge cases, particularly when we need to remove the head of the list. Consider the example [1,2,3] and n = 3, which we need to move head, which is node1.
 
 First, move the `right` pointer `n` steps forward. Then, move `right` another `length - n` steps. Starting `left` from the `dummy` node allows us to position it right before the node we want to remove after moving `length - n` steps. For example, if the length of the list is 8 and `n = 2`, we first move `right` 2 steps. Then, we move `right` an additional `8 - 2 = 6` steps until it reaches the end (`None`). Starting from the `dummy` node, moving `left` 6 steps will place it just before the node we want to remove, which is the 3rd-to-last node.
@@ -89,4 +91,35 @@ class Solution(object):
         cur.next = cur.next.next
         return dummy.next
 ```
+My wrong implementation, just need to modify the return statement, not return `head` but should `return dummy.next`.
 
+It not work when head = [1] and n = 1, the expected output is [], however, the output it returned is [1].
+```python
+# Definition for singly-linked list.
+# class ListNode(object):
+#     def __init__(self, val=0, next=None):
+#         self.val = val
+#         self.next = next
+class Solution(object):
+    def removeNthFromEnd(self, head, n):
+        """
+        :type head: Optional[ListNode]
+        :type n: int
+        :rtype: Optional[ListNode]
+        """
+        temp = head
+        while n > 0:
+            temp = temp.next
+            n -=1
+        print(temp)
+        dummy = ListNode()
+        cur = dummy
+        cur.next = head
+        while temp:
+            cur = cur.next
+            temp = temp.next
+        print(cur)
+        temp = cur.next.next
+        cur.next = temp
+        return head
+```
