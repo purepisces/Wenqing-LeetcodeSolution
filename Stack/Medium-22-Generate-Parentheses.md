@@ -1,4 +1,6 @@
 I love this question, it is really typical and kind of brainstrom, really good!
+
+It also has the backtracking algorithm.
 ```python
 class Solution(object):
     def generateParenthesis(self, n):
