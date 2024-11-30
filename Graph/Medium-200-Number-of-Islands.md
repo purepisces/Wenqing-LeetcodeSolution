@@ -1,3 +1,5 @@
+Don't need to return boolean value in dfs function, could just use `if grid[r][c] == "1" and (r, c) not in visit`.
+
 ```python
 class Solution(object):
     def numIslands(self, grid):
@@ -97,3 +99,4 @@ class Solution(object):
                     res+=1
         return res
 ```
+
