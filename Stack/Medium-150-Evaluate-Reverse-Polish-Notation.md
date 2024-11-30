@@ -1,3 +1,4 @@
+Just remember `stack.append(int(float(b)/a))`
 ```python
 class Solution(object):
     def evalRPN(self, tokens):
