@@ -12,7 +12,7 @@
 
 - **Stack**
   - [Overview](Stack/stack.md)
-  - [❤️🧠🧠🌟🌟🌟Medium-22-Generate-Parentheses](Stack/Medium-22-Generate-Parentheses.md)
+  - [❤️❤️❤️🧠🧠🌟🌟🌟Medium-22-Generate-Parentheses](Stack/Medium-22-Generate-Parentheses.md)
   - [Easy-20-Valid-Parentheses](Stack/Easy-20-Valid-Parentheses.md)
   - [🧠🌟Medium-155-Min-Stack](Stack/Medium-155-Min-Stack.md)
   - [🧠Medium-150-Evaluate-Reverse-Polish-Notation](Stack/Medium-150-Evaluate-Reverse-Polish-Notation.md)
