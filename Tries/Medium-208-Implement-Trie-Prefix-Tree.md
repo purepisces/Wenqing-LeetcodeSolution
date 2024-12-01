@@ -71,7 +71,7 @@ class Trie(object):
 # param_3 = obj.startsWith(prefix)
 ```
 ___
-wrong implementation:
+Wrong Implementation:
 1.mistakenly assigned the Trienode class itself to cur.children[c] instead of creating an instance of it. Specifically, this line:
 ```
 # wrong implementation
