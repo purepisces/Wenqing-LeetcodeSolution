@@ -1,4 +1,4 @@
-dfs return the copied node, key is the old node, and value is the new node.
+dfs return the copied node, for oldToNew's dictionary, key is the old node, and value is the new node.
 ```python
 """
 # Definition for a Node.
