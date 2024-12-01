@@ -17,7 +17,7 @@ class Solution(object):
         return min(cost[0],cost[1])
 ```
 ___
-My wrong implementation, the logic for cost[i] is wrong, we should choose the value in cost[i] and from there we will have two paths to choose. Also the final return statement should be `min(cost[0],cost[1])`. Since we don't know which index should we start.
+My wrong implementation, the logic for cost[i] is wrong, we should choose the value in cost[i] and from there we will have two paths to choose. Also the final return statement should be `min(cost[0],cost[1])`. Since we don't know where is the start position.
 ```python
 class Solution(object):
     def minCostClimbingStairs(self, cost):
