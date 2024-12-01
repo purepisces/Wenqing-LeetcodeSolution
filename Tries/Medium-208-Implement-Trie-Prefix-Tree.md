@@ -82,3 +82,51 @@ should be
 # correct implementation
 cur.children[c] = Trienode()
 ```
+Wrong implementation:
+
+Stuck here, don't know how to append characters in this structure. Should just be `cur.children[c] = TrieNode()`, we can just insert the c as the key, and leave the value just be TrieNode().
+```python
+class TrieNode(object):
+    def __init__(self, val=0):
+        self.val = val
+        self.child = {}
+        self.endofword = False
+class Trie(object):
+
+    def __init__(self):
+        self.root = TrieNode()
+        
+
+    def insert(self, word):
+        """
+        :type word: str
+        :rtype: None
+        """
+        cur = self.root
+        for c in word:
+            if c not in cur.child:
+                cur.child[c] = TrieNode(val = c)
+
+        
+
+    def search(self, word):
+        """
+        :type word: str
+        :rtype: bool
+        """
+        
+
+    def startsWith(self, prefix):
+        """
+        :type prefix: str
+        :rtype: bool
+        """
+        
+
+
+# Your Trie object will be instantiated and called as such:
+# obj = Trie()
+# obj.insert(word)
+# param_2 = obj.search(word)
+# param_3 = obj.startsWith(prefix)
+```
