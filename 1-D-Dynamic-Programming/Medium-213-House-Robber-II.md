@@ -17,6 +17,7 @@ class Solution(object):
 ```
 
 Time Complexity: O(n) because the list is processed twice, each requiring linear time.
+
 Space Complexity: O(1) because only a fixed number of variables are used.
 
 ___
