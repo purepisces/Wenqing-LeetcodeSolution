@@ -3,9 +3,9 @@ class Solution(object):
     def rob(self, nums):
         if len(nums) == 1:
             return nums[0]
-        rob_move_last = nums[:len(nums)-1]
-        rob_move_first = nums[1:]
-        return max(self.helper(rob_move_last), self.helper(rob_move_first))
+        # rob_move_last = nums[:len(nums)-1]
+        # rob_move_first = nums[1:]
+        return max(self.helper(nums[:len(nums)-1]), self.helper(nums[1:]))
 
     def helper(self, nums):
         rob1, rob2 = 0, 0
