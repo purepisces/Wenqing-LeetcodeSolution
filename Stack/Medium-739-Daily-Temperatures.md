@@ -23,7 +23,7 @@ class Solution(object):
         return result
 ```
 ___
-My wrong implementation
+My wrong implementation: I should update the result array when I pop from the stack.
 ```python
 class Solution(object):
     def dailyTemperatures(self, temperatures):
