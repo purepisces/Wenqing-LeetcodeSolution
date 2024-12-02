@@ -22,3 +22,22 @@ class Solution(object):
             stack.append((i,t))
         return result
 ```
+___
+My wrong implementation
+```python
+class Solution(object):
+    def dailyTemperatures(self, temperatures):
+        """
+        :type temperatures: List[int]
+        :rtype: List[int]
+        """
+        # 75 73 71 76
+        res = [0] * len(temperatures)
+        stack = []
+        for i, temperature in enumerate(temperatures):
+            while stack and temperatures[i] > stack[-1][1]:
+                index, temp = stack.pop()
+            stack.append((i,temperature))
+            res[i] = index - i
+        return res
+```
