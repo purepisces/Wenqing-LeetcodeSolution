@@ -19,7 +19,7 @@
   - [🧠Medium-261-Graph-Valid-Tree](Graph/Medium-261-Graph-Valid-Tree.md)
   - [🌟Medium-417-Pacific-Atlantic-Water-Flow](Graph/Medium-417-Pacific-Atlantic-Water-Flow.md)
   - [🧠🧠🌟🌟Medium-207-Course-Schedule](Graph/Medium-207-Course-Schedule.md)
-  - [Medium-994-Rotting-Oranges](Graph/Medium-994-Rotting-Oranges.md)
+  - [🌟🌟Medium-994-Rotting-Oranges](Graph/Medium-994-Rotting-Oranges.md)
 
 - **Linked List**
   - [Overview](Linked-List/Linked-List.md)
