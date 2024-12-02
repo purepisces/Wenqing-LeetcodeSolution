@@ -15,6 +15,10 @@ class Solution(object):
             rob2 = newRob
         return rob2
 ```
+
+Time Complexity: O(n) because the list is processed twice, each requiring linear time.
+Space Complexity: O(1) because only a fixed number of variables are used.
+
 ___
 My also good solution:
 ```python
