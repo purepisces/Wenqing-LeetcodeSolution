@@ -1,3 +1,4 @@
+"rob" variable refers to the maximum amount of money you can rob when you reach a certain point (house).
 ```python
 class Solution(object):
     def rob(self, nums):
