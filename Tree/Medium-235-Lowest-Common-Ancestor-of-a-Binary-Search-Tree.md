@@ -1,3 +1,4 @@
+Remember to add the condition `while cur:`
 ```python
 # Definition for a binary tree node.
 # class TreeNode(object):
