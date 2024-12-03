@@ -21,6 +21,30 @@ class Solution(object):
             return [balanced, depth]
         return dfs(root)[0]
 ```
+
+**Time Complexity**
+
+The `isBalanced` function uses a Depth-First Search (DFS) approach, visiting each node of the tree exactly once. For each node, the computation involves:
+
+1.  Recursive calls to check the left and right subtrees.
+2.  Computation of `depth` and `balanced` at the current node, which is O(1).
+
+Thus, the total time complexity is proportional to the number of nodes in the tree, denoted as nnn. Therefore, the **time complexity is O(n)**.
+
+
+**Space Complexity**
+
+The space complexity is determined by the maximum depth of the recursion stack, which corresponds to the height of the binary tree. Let hhh be the height of the tree:
+
+-   In the best case (balanced tree), the height h=log⁡n.
+-   In the worst case (skewed tree), the height h=n.
+
+Additionally, the function does not use any significant extra space beyond the recursion stack (only a few variables like `left`, `right`, `depth`, and `balanced`).
+
+Thus, the **space complexity is O(h)**, where h is the height of the tree. This can range from O(log⁡n) for a balanced tree to O(n) for a skewed tree.
+
+-   **Time Complexity**: O(n)
+-   **Space Complexity**: O(h), where hhh is the height of the tree, ranging from O(log⁡n) to O(n).
 ___
 My accepted solution, I think is better than needcode solution, since I add an early stop.
 ```python
