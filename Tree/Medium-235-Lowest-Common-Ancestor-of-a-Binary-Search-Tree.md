@@ -24,3 +24,8 @@ class Solution(object):
             else:
                 return cur
 ```
+**Time Complexity:** O(h), where h is the height of the tree.
+- Balanced BST: O(log⁡(n))
+- Unbalanced BST: O(n)
+
+ **Space Complexity:** O(1)
