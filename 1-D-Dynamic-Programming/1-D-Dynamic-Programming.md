@@ -1,4 +1,4 @@
-🌟🌟🌟🌟🌟 Must Read [climbing stair](https://github.com/purepisces/Wenqing-LeetcodeSolution/blob/main/1-D-Dynamic-Programming/Easy-70-Climbing-Stairs.md), which illustrate this dp concept excellent! 
+🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟 **Excellent and Fantastic video: https://www.youtube.com/watch?v=Y0lT9Fck7qI&t=1s for leetcode 70 climbing stairs which illustrates the concep of dp, Must Read [climbing stair](https://github.com/purepisces/Wenqing-LeetcodeSolution/blob/main/1-D-Dynamic-Programming/Easy-70-Climbing-Stairs.md), which illustrate this dp concept excellent!**
 
 ```python
 class Solution(object):
