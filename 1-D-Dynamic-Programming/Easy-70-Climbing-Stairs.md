@@ -1,4 +1,5 @@
 
+
 ```python
 class Solution(object):
     def climbStairs(self, n):
@@ -75,6 +76,12 @@ class Solution(object):
             return dfs(i + 1) + dfs(i + 2)
         return dfs(0)
 ```
+Time Complexity: O($2^n$) 
+Space Complexity: O(n)
+
+> 🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟 Time Complexity: When analyzing recursion, **time complexity** accounts for the **total number of calls** made to the function. In this case, the total number of recursive calls is proportional to the **total number of nodes in the recursion tree**. 
+> 
+> Space Complexity: Each recursive call pushes the current state of the function onto the stack. The maximum depth of the recursion stack is equal to the **depth of the recursion tree**, which is O(n) in this case.
 ___
 🌟🌟🌟🌟🌟 When look back at decision tree graph, we are repeating the same problem multiple times.  These two purple blocks is the same decision tree which calculate the way from step2 to step5. Because in both cases, we're solving the exact same subproblems. And since we are doing dfs, the left purple will be solved first, which calculated the way from step2 to step5. So when we get to right purple, we don't we just take that result store it in memory? We can store it in dp or basically this is a cache. We're storing it in memory so then when we get here we can just say we already  know the result of this meaning, we don't need to draw out the entire deciosn tree, we 're just going to skip that all together we're not going to draw right purple block. So I can eliminating all that repeated work by saving the left purple's solution.
 
