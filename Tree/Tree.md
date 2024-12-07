@@ -1,5 +1,4 @@
 🌟🌟🌟🌟🌟 **Base Case for dfs**: I will use climbing stairs to illustrate it. At every given point, we have 2 decisions to make, either climb one or two. **When we reach 5**, it is our base case, we're gonna solve this recursively. When reach 5, **return 1**, this is when we find one way. And if this number of steps ever **exceeds five**, this is also the base case, we're going to **return 0**. https://leetcode.com/problems/climbing-stairs/description/
-
 ___
 
 102. Binary Tree Level Order Traversal: https://leetcode.com/problems/binary-tree-level-order-traversal/description/
@@ -59,4 +58,29 @@ Space Complexity: O(n)
 > -   Therefore, the total number of recursive calls is proportional to the **total number of nodes in the recursion tree**, which grows exponentially as $O(2^n)$.
 > 
 > Space Complexity: Each recursive call pushes the current state of the function onto the stack. The maximum depth of the recursion stack is equal to the **depth of the recursion tree**, which is O(n) in this case.
+___
+
+### Total Number of Nodes in a Full Binary Tree
+
+The given tree has nodes doubling at each level, forming a full binary tree. The number of nodes at each level corresponds to the terms of a geometric progression:
+
+$$1, 2, 4, 8, \dots, 2^{h-1}$$
+
+where hhh is the height of the tree.
+
+The total number of nodes in the tree is the sum of the geometric series:
+
+$$S = 1 + 2 + 4 + 8 + \cdots + 2^{h-1}$$
+
+The sum of a geometric series can be calculated using the formula:
+
+$$S = \frac{2^h - 1}{2 - 1} = 2^h - 1$$
+
+So, the total number of nodes in the tree is:
+
+$$\text{Total nodes} = 2^h - 1$$
+
+If the tree height $h = n$, the total number of nodes is:
+
+$$\text{Total nodes} = 2^n - 1$$
 ___
