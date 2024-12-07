@@ -78,6 +78,9 @@ Time Complexity: O($2^n$)
 Space Complexity: O(n)
 
 > 🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟 Time Complexity: When analyzing recursion, **time complexity** accounts for the **total number of calls** made to the function. In this case, the total number of recursive calls is proportional to the **total number of nodes in the recursion tree**. 
+> - At each call to `dfs(i)`, the function does work in the form of making **two recursive calls**: `dfs(i + 1)` and `dfs(i + 2)`.
+> -   These recursive calls are **new computations** — they explore different paths in the recursion tree and **add to the total number of operations performed**.
+> -   Therefore, the total number of recursive calls is proportional to the **total number of nodes in the recursion tree**, which grows exponentially as $O(2^n)$.
 > 
 > Space Complexity: Each recursive call pushes the current state of the function onto the stack. The maximum depth of the recursion stack is equal to the **depth of the recursion tree**, which is O(n) in this case.
 ___
