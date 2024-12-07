@@ -1,3 +1,5 @@
+refer to this blog: https://medium.com/@syphaxp/sum-of-sub-matrices-using-dynamic-programming-317bb26bd481
+
 ```python
 def dynamic_sum_submatrices(mat):
     # n and m represent dimensions of the matrix
