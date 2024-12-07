@@ -4,4 +4,6 @@ insert purple img
 insert eliminate img
 ___
 why don't we start at the bottom solve the base case and then work our way up to the original problem at 0? This is called a **bottom up dynamic programming.** Start at the base case, and work our way up. **reading climbing stairs.md** 
+
+insert bottom-up img
 ___
