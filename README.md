@@ -12,7 +12,7 @@
 
 - **1-D Dynamic Programming**
   - [Overview](1-D-Dynamic-Programming/1-D-Dynamic-Programming.md)
-  - [🌟Easy-70-Climbing-Stairs](1-D-Dynamic-Programming/Easy-70-Climbing-Stairs.md)
+  - [🐮🌟Easy-70-Climbing-Stairs](1-D-Dynamic-Programming/Easy-70-Climbing-Stairs.md)
   - [🧠🌟Easy-746-Min-Cost-Climbing-Stairs](1-D-Dynamic-Programming/Easy-746-Min-Cost-Climbing-Stairs.md)
   - [Medium-198-House-Robber](1-D-Dynamic-Programming/Medium-198-House-Robber.md)
   - [🧠🌟Easy-121-Best-Time-to-Buy-and-Sell-Stock](1-D-Dynamic-Programming/Easy-121-Best-Time-to-Buy-and-Sell-Stock.md)
