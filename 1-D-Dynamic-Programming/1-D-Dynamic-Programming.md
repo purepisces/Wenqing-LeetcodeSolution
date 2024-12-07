@@ -9,5 +9,7 @@ ___
 why don't we start at the bottom solve the base case and then work our way up to the original problem at 0? This is called a **bottom up dynamic programming.** Start at the base case, and work our way up. **reading climbing stairs.md** 
 
 
-<img src="start-step-3.png" alt="start-step-3" width="400" height="300"/>
+<img src="start-step-3-2.png" alt="start-step-3" width="400" height="300"/>
+<img src="final-result.png" alt="final-result" width="400" height="300"/>
+
 ___
