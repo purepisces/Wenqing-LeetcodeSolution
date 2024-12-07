@@ -31,4 +31,22 @@ def dynamic_sum_submatrices(mat):
             )
     
     return sum_mat
+
+def get_submatrix_sum(sum_mat, r1, c1, r2, c2):
+    # Start with the total sum from the top-left corner to (r2, c2)
+    total = sum_mat[r2][c2]
+    
+    # Subtract rows above r1
+    if r1 > 0:
+        total -= sum_mat[r1 - 1][c2]
+    
+    # Subtract columns to the left of c1
+    if c1 > 0:
+        total -= sum_mat[r2][c1 - 1]
+    
+    # Add back the overlapping region
+    if r1 > 0 and c1 > 0:
+        total += sum_mat[r1 - 1][c1 - 1]
+    
+    return total
 ```
