@@ -78,13 +78,11 @@ class Solution(object):
 ___
 🌟🌟🌟🌟🌟 When look back at decision tree graph, we are repeating the same problem multiple times.  These two purple blocks is the same decision tree which calculate the way from step2 to step5. Because in both cases, we're solving the exact same subproblems. And since we are doing dfs, the left purple will be solved first, which calculated the way from step2 to step5. So when we get to right purple, we don't we just take that result store it in memory? We can store it in dp or basically this is a cache. We're storing it in memory so then when we get here we can just say we already  know the result of this meaning, we don't need to draw out the entire deciosn tree, we 're just going to skip that all together we're not going to draw right purple block. So I can eliminating all that repeated work by saving the left purple's solution.
 
-<img src="purple.png" alt="purple" width="400" height="300"/>
-<img src="eliminate.png" alt="eliminate" width="400" height="300"/>
+<img src="purple.png" alt="purple" width="400" height="300"/> <img src="eliminate.png" alt="eliminate" width="400" height="300"/>
 
 🌟🌟🌟🌟🌟 Similarly, staring from step3 to reach step5, these two blue blocks also the same, because we are aking that same question. My inituition here is that if the subproblem is same, we can just use a cache to store it, so we don't need to calculate it again, which elimate the repeated work.  Similar for the two orange block, which start from step 4 to reach step 5. The left decision tree the orange block is going to be computed first since we're doing dfs, so once again let's elimante the right orange block, elimanate the repeated work.
 
-<img src="blue.png" alt="blue" width="400" height="300"/>
-<img src="orange.png" alt="orange" width="400" height="300"/>
+<img src="blue.png" alt="blue" width="400" height="300"/> <img src="orange.png" alt="orange" width="400" height="300"/>
 
 
 🌟🌟🌟🌟🌟 So this is what our decion tree ends up looking like when we elimanate all the repeated work. And the time complexity is roughly O(n). This is linear time solution, since we're only solving each sub problem once. So we know the first subproblem, the original problem is starting at 0, then we get a subproblem of 1, 2, 3,4 all the way to 5 which is our base case. So each of these sub problems is just being solved once and n is 5, so overall the time complexity is O(n). And this is **basically the dynamic programming solution where we are caching the result aka memorization.**
@@ -102,13 +100,11 @@ Remember we are starting at position 0 and our goal is to get to the 5th step, e
 
 So I'm going to **storing our result in an array called dp.** So we're going to have a position in dp all the way from index 0 all the way up to index n which is going to be our input value. **Each position in dp represents how many different ways from here to reach the goal.** So remember we're at the base case initially. At the last step if we start here, there just gonna be 1 way to reach here, 1 is our default value.
 
-<img src="start-step5-1.png" alt="start-step5-1" width="400" height="300"/>
-<img src="start-step5-2.png" alt="start-step5-2" width="400" height="300"/>
+<img src="start-step5-1.png" alt="start-step5-1" width="400" height="300"/> <img src="start-step5-2.png" alt="start-step5-2" width="400" height="300"/>
 
 Then we're able to solve starting from step4,  because it depends on the subproblem which is starting from step5. So starting from step4 we can take one step which will reach 5, or we can take two steops which lans us out of bounds. So starting from step4 and reach the goal, the way we can choose is 1.
 
-<img src="start-step4-1.png" alt="start-step5-1" width="400" height="300"/>
-<img src="start-step4-2.png" alt="start-step5-2" width="400" height="300"/>
+<img src="start-step4-1.png" alt="start-step5-1" width="400" height="300"/> <img src="start-step4-2.png" alt="start-step5-2" width="400" height="300"/>
 
 And what's interesting here is that, if change n to be 100, then you can see in position 100 and position 99, the value will also be 1. So no matter how to change the value of n, the value remains 0 for position n and position n-1. Since n-1 could only take one step to reach n, if take 2 steps, it will be out of bounds.
 
@@ -116,8 +112,7 @@ And what's interesting here is that, if change n to be 100, then you can see in 
 
 🌟🌟🌟🌟🌟 Now we want to know how many different ways from step3 to reach step5. **This depends on two sub problems which come after it.** From 4, we don't need to continue to figure out how many different ways from 4 can we get to 5, because we just computed that, that's why we're using dynamic programming! that's why we have this array because we already computed starting at 4 how many different ways can we reach 5. And we also know stariting at 5 how many different ways can we reach 5, that's also 1. So in position3's value, is basically **take  these next two values and add them together**, which is 1+1 = 2.
 
-<img src="start-step3-1.png" alt="start-step5-1" width="400" height="300"/>
-<img src="start-step3-2.png" alt="start-step5-2" width="400" height="300"/>
+<img src="start-step3-1.png" alt="start-step5-1" width="400" height="300"/> <img src="start-step3-2.png" alt="start-step5-2" width="400" height="300"/>
 
 Do the same for position2 and repeat it, then we can get the final result, which is 8. In graph, the orange part is related to orange square, the green part is related to green square, and the purple part is related to purple square. If you're familiar with what the fibonacci sequence, it is exactly the fibonacci numbers.
 
