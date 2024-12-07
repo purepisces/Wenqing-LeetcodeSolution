@@ -16,8 +16,7 @@ class Solution(object):
 ```
 Time Complexity: O(n)
 Space Complexity: O(1)
-___
-Explanation:
+## Explanation:
 
 Example 1:
 
