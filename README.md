@@ -1,3 +1,8 @@
+🐮: Must Read
+❤️: Love the question
+🌟: Importance
+🧠: Brain Storm
+
 # Wenqing's LeetcodeSolution
   - [Useful Link](useful-link.md)
   - [Python_Syntax](python_syntax.md)
