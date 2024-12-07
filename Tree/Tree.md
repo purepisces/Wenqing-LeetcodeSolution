@@ -35,6 +35,7 @@ class Solution(object):
         return res
 ```
 ___
+More detail can see in [climbing stair](https://github.com/purepisces/Wenqing-LeetcodeSolution/blob/main/1-D-Dynamic-Programming/Easy-70-Climbing-Stairs.md).
 ```python
 # inefficient solution
 class Solution(object):
