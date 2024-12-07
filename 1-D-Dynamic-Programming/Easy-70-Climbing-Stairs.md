@@ -15,11 +15,12 @@ class Solution(object):
         return one
 ```
 Time Complexity: O(n)
+
 Space Complexity: O(1)
 
 ___
 ___
-___
+
 Explanation:
 
 Example 1:
@@ -149,6 +150,5 @@ class Solution(object):
             two = temp
         return one
 ```
-___
 ___
 ___
