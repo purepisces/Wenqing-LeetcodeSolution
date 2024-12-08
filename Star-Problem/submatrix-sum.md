@@ -1,4 +1,4 @@
-refer to this blog: https://medium.com/@syphaxp/sum-of-sub-matrices-using-dynamic-programming-317bb26bd481
+Refer to this blog: https://medium.com/@syphaxp/sum-of-sub-matrices-using-dynamic-programming-317bb26bd481
 
 ```python
 def dynamic_sum_submatrices(mat):
@@ -50,3 +50,49 @@ def get_submatrix_sum(sum_mat, r1, c1, r2, c2):
     
     return total
 ```
+Time Comlexity: $O(n \times m)$
+Space Complexity: $O(n \times m)$
+
+
+### **Example**
+
+#### Input
+```python
+mat = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+]
+sum_mat = dynamic_sum_submatrices(mat)
+result = get_submatrix_sum(sum_mat, 1, 1, 2, 2)
+```
+
+#### Steps
+
+1.  **Preprocessing (`dynamic_sum_submatrices`)**:
+```python
+sum_mat = [
+    [1,  3,  6],
+    [5, 12, 21],
+    [12, 27, 45]
+]
+```
+2. **Query (`get_submatrix_sum`)**:
+
+   - Submatrix bounds: `(1, 1)` to `(2, 2)` corresponds to:
+```python
+[5, 6]
+[8, 9]
+```
+
+-   Start with `sum_mat[2][2] = 45`
+-   Subtract rows above: `sum_mat[0][2] = 6` 
+   $$45 - 6 = 39$$
+   -   Subtract columns left: `sum_mat[2][0] = 12` 
+   $$39 − 12 = 27$$
+   -   Add back overlap: `sum_mat[0][0] = 1` 
+   $$27 + 1 = 28$$
+
+#### Output
+
+-   `result = 28`
