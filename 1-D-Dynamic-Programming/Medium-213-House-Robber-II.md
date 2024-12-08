@@ -9,10 +9,11 @@ class Solution(object):
 
     def helper(self, nums):
         rob1, rob2 = 0, 0
+        # [rob1, rob2, n, n+1, ...]
         for n in nums:
-            newRob = max(rob1 + n, rob2)
+            temp = max(n + rob1, rob2)
             rob1 = rob2
-            rob2 = newRob
+            rob2 = temp
         return rob2
 ```
 
