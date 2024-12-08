@@ -33,7 +33,7 @@ The last position in our cost array is not the top floor, the position right aft
 
 <img src="top-floor.png" alt="top-floor" width="400" height="300"/>
 
-<img src="15.png" alt="15" width="400" height="300"/> <img src="30.png" alt="30" width="400" height="300"/> <img src="25.png" alt="25" width="400" height="300"/>
+<img src="15.png" alt="15" width="300" height="300"/> <img src="30.png" alt="30" width="300" height="300"/> <img src="25.png" alt="25" width="300" height="300"/>
 
 ___
 Firstly, try brute force solution. From every spot, we have two decisions, take a jump of one or take a jump of two. We can't just be greedy and take a two jump every single time(consider 1 5 10000 2 9]).  So let's try every single possibility. We like to do decision trees when we're brute forcing.
