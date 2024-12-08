@@ -1,3 +1,4 @@
+Read [house robber](https://github.com/purepisces/Wenqing-LeetcodeSolution/blob/main/1-D-Dynamic-Programming/Medium-198-House-Robber.md) for detail explanation.
 ```python
 class Solution(object):
     def rob(self, nums):
@@ -20,8 +21,6 @@ class Solution(object):
 Time Complexity: O(n) because the list is processed twice, each requiring linear time.
 
 Space Complexity: O(1) because only a fixed number of variables are used.
-
-Read [house robber](https://github.com/purepisces/Wenqing-LeetcodeSolution/blob/main/1-D-Dynamic-Programming/Medium-198-House-Robber.md).
 
 ___
 My also good solution:
