@@ -28,3 +28,6 @@ class Solution(object):
                 r += 1
         return res
 ```
+For example, Input: s = "babad", make s[0] be the center, and check its left and right, then make s[1] be the center expland to its left and right.
+
+Need to consider the odd length and even length, since consider "dd", it is even length, if center at s[0], it will not expand to its left if considering odd length, so we need to consider even length.
