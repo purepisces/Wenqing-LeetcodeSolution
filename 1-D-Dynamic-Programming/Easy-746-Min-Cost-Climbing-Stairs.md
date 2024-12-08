@@ -13,6 +13,7 @@ class Solution(object):
         return min(cost[0],cost[1])
 ```
 Time Complexity: O(n)
+
 Space Complexity: O(1)
 
 In this array every single index represents the entire cost it would take from this index to reach the end of the array or the top of the staircase. And if you start from index0, you need to pay the cost in index0 to reach the next index.
