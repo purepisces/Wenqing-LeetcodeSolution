@@ -30,7 +30,23 @@ Reference: [Neetcode](https://neetcode.io/practice)
   - [🧠🌟Medium-152-Maximum-Product-Subarray](1-D-Dynamic-Programming/Medium-152-Maximum-Product-Subarray.md)
   - [🧠🌟Medium-300-Longest-Increasing-Subsequence](1-D-Dynamic-Programming/Medium-300-Longest-Increasing-Subsequence.md)
  
+- **Tree**
+  - [Overview](Tree/Tree.md)
+  - [🧠🧠🌟🌟🌟Medium-1448-Count-Good-Nodes-in-Binary-Tree](Tree/Medium-1448-Count-Good-Nodes-in-Binary-Tree.md)
+  - [🧠🌟🌟Medium-98-Validate-Binary-Search-Tree](Tree/Medium-98-Validate-Binary-Search-Tree.md)
+  - [🧠🧠🧠🌟Medium-230-Kth-Smallest-Element-in-a-BST](Tree/Medium-230-Kth-Smallest-Element-in-a-BST.md)
+  - [🧠🌟🌟Easy-543-Diameter-of-Binary-Tree](Tree/Easy-543-Diameter-of-Binary-Tree.md)
+  - [🧠🌟🌟Easy-110-Balanced-Binary-Tree](Tree/Easy-110-Balanced-Binary-Tree.md)
+  - [🌟Easy-572-Subtree-of-Another-Tree](Tree/Easy-572-Subtree-of-Another-Tree.md)
+  - [🧠Medium-235-Lowest-Common-Ancestor-of-a-Binary-Search-Tree](Tree/Medium-235-Lowest-Common-Ancestor-of-a-Binary-Search-Tree.md)
+  - [🌟🌟Medium-199-Binary-Tree-Right-Side-View](Tree/Medium-199-Binary-Tree-Right-Side-View.md)
+  - [🧠🧠Medium-105-Construct-Binary-Tree-from-Preorder-and-Inorder-Traversal](Tree/Medium-105-Construct-Binary-Tree-from-Preorder-and-Inorder-Traversal.md)
+  - [Medium-102-Binary-Tree-Level-Order-Traversal](Tree/Medium-102-Binary-Tree-Level-Order-Traversal.md)
+  - [Easy-226-Invert-Binary-Tree](Tree/Easy-226-Invert-Binary-Tree.md)
+  - [Easy-104-Maximum-Depth-of-Binary-Tree](Tree/Easy-104-Maximum-Depth-of-Binary-Tree.md)
+  - [Easy-100-Same-Tree](Tree/Easy-100-Same-Tree.md)
 
+  
 - **Graph**
   - [Overview](Graph/Graph.md)
   - [❤️🧠🌟🌟🌟Medium-286-Walls-and-Gates](Graph/Medium-286-Walls-and-Gates.md)
@@ -93,21 +109,6 @@ Reference: [Neetcode](https://neetcode.io/practice)
   - [Easy-1046-Last-Stone-Weight](Heap-Priority-Queue/Easy-1046-Last-Stone-Weight.md)
   - [Medium-973-K-Closest-Points-to-Origin](Heap-Priority-Queue/Medium-973-K-Closest-Points-to-Origin.md) 
 
-- **Tree**
-  - [Overview](Tree/Tree.md)
-  - [🧠🧠🌟🌟🌟Medium-1448-Count-Good-Nodes-in-Binary-Tree](Tree/Medium-1448-Count-Good-Nodes-in-Binary-Tree.md)
-  - [🧠🌟🌟Medium-98-Validate-Binary-Search-Tree](Tree/Medium-98-Validate-Binary-Search-Tree.md)
-  - [🧠🧠🧠🌟Medium-230-Kth-Smallest-Element-in-a-BST](Tree/Medium-230-Kth-Smallest-Element-in-a-BST.md)
-  - [🧠🌟🌟Easy-543-Diameter-of-Binary-Tree](Tree/Easy-543-Diameter-of-Binary-Tree.md)
-  - [🧠🌟🌟Easy-110-Balanced-Binary-Tree](Tree/Easy-110-Balanced-Binary-Tree.md)
-  - [🌟Easy-572-Subtree-of-Another-Tree](Tree/Easy-572-Subtree-of-Another-Tree.md)
-  - [🧠Medium-235-Lowest-Common-Ancestor-of-a-Binary-Search-Tree](Tree/Medium-235-Lowest-Common-Ancestor-of-a-Binary-Search-Tree.md)
-  - [🌟🌟Medium-199-Binary-Tree-Right-Side-View](Tree/Medium-199-Binary-Tree-Right-Side-View.md)
-  - [🧠🧠Medium-105-Construct-Binary-Tree-from-Preorder-and-Inorder-Traversal](Tree/Medium-105-Construct-Binary-Tree-from-Preorder-and-Inorder-Traversal.md)
-  - [Medium-102-Binary-Tree-Level-Order-Traversal](Tree/Medium-102-Binary-Tree-Level-Order-Traversal.md)
-  - [Easy-226-Invert-Binary-Tree](Tree/Easy-226-Invert-Binary-Tree.md)
-  - [Easy-104-Maximum-Depth-of-Binary-Tree](Tree/Easy-104-Maximum-Depth-of-Binary-Tree.md)
-  - [Easy-100-Same-Tree](Tree/Easy-100-Same-Tree.md)
 
 - **Sliding Window**
   - [Overview](Sliding-Window/Sliding-Window.md)
