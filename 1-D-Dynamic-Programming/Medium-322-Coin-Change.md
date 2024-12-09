@@ -21,6 +21,7 @@ class Solution(object):
 # DP[7] = 1 + DP[2] = 1 + 2 = 3 # choose coin 5
 ```
 Time complexity: O(amount+ len(coins))
+
 Space Complexity: O(amount)
 
 dp[i]: minimum number of coins that sum to amount i, and for dp[a] = min(dp[a], 1 + dp[a-c]): 1 means the number of coins we choose, not the coin's value.
