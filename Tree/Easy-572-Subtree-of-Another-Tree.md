@@ -28,7 +28,7 @@ class Solution(object):
 ```
 
 ___
-I stack in that AttributeError: 'NoneType' object has no attribute 'left'. If I just add a check for root, then I can directly deal with it, but I'm stupid, didn't figure it out.
+I stack in that AttributeError: 'NoneType' object has no attribute 'left'. If I just add a check for root, then I can directly deal with it, but I'm stupid, didn't figure it out. 
 ```python
 # Definition for a binary tree node.
 # class TreeNode(object):
@@ -54,3 +54,30 @@ class Solution(object):
             return self.isSametree(p.left, q.left) and self.isSametree(p.right, q.right)
         return False
 ```
+Second time fail in same place😭, None has no left and right node. And I didn't figure out it by myself this time, either... Just need to add if not root's check.
+```python
+# Definition for a binary tree node.
+# class TreeNode(object):
+#     def __init__(self, val=0, left=None, right=None):
+#         self.val = val
+#         self.left = left
+#         self.right = right
+class Solution(object):
+    def isSubtree(self, root, subRoot):
+        """
+        :type root: Optional[TreeNode]
+        :type subRoot: Optional[TreeNode]
+        :rtype: bool
+        """
+        if self.isSametree(root, subRoot):
+            return True
+        return self.isSubtree(root.left, subRoot) or self.isSubtree(root.right, subRoot)
+
+    def isSametree(self, root, subRoot):
+        if not root and not subRoot:
+            return True
+        if root and subRoot and root.val == subRoot.val:
+            return self.isSametree(root.left, subRoot.left) and self.isSametree(root.right, subRoot.right)
+        return False
+```
+
