@@ -25,5 +25,7 @@ class Solution(object):
             for c in range(cols):
                 if board[r][c] == "T":
                     board[r][c] = "O"
-
 ```
+Time complexity:  $O(m*n)$
+
+Space complexity: $O(m*n)$
