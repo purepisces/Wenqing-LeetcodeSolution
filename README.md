@@ -46,6 +46,7 @@ Reference: [Neetcode](https://neetcode.io/practice)
   - [Easy-104-Maximum-Depth-of-Binary-Tree](Tree/Easy-104-Maximum-Depth-of-Binary-Tree.md)
   - [Easy-100-Same-Tree](Tree/Easy-100-Same-Tree.md)
   - [Medium-130-Surrounded-Regions](Tree/Medium-130-Surrounded-Regions.md)
+  - [Medium-261-Graph-Valid-Tree](Tree/Medium-261-Graph-Valid-Tree.md)
 
   
 - **Graph**
