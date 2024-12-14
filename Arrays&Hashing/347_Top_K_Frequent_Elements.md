@@ -89,3 +89,9 @@ class Solution(object):
 res = {}
 for ele, fre in res.items()
 ```
+___
+My wrong implementation when went to:
+
+```python
+freq = [[] for i in range(len(nums) + 1)]
+```
