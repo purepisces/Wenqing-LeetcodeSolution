@@ -66,9 +66,9 @@ class Solution(object):
         :type board: List[List[str]]
         :rtype: bool
         """
-        row = collections.defaultdict(set)
-        col = collections.defaultdict(set)
-        square = collections.defaultdict(set)
+        row = defaultdict(set)
+        col = defaultdict(set)
+        square = defaultdict(set)
         
         for r in range(9):
             for c in range(9):
